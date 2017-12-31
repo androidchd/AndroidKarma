@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:weightSum="100" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical" >
+
+      <RelativeLayout
+                        android:id="@+id/linear_first"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:padding="10dp" >
+
+                       <ImageButton
+                            android:background="#FFFFFF"
+                            android:id="@+id/favriot"
+                            
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                           android:paddingRight="50dp"
+                            android:layout_width="90dp"
+                            android:layout_marginTop="5dp"
+                            android:clickable="true"
+                           
+                            android:src="@drawable/back_icon" />                       
+
+                        <TextView
+                            android:id="@+id/tv_header_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center_horizontal"
+                            android:text="Event and Tournament"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+                        
+                        
+                    </RelativeLayout>
+              <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:background="@android:color/darker_gray"/>         
+</LinearLayout>
+<LinearLayout 
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_weight="15"
+             >
+            <LinearLayout 
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/golf_playe"
+                    />
+               
+           <Button android:id="@+id/btn_player1"
+                    android:layout_width="60dp" 
+                    android:layout_height="30dp"
+                    android:layout_marginRight="-8dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center_vertical" 
+                    android:layout_weight="1"
+                    android:ellipsize="end" 
+                    android:gravity="center_vertical"
+                    android:scrollHorizontally="true" 
+                    android:singleLine="true"
+                    android:text="1" 
+                    android:textSize="12sp"
+                    android:paddingLeft="20sp"
+                    android:background="#3061e5"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold" />
+                <Button  
+                    android:layout_weight="0" 
+                    android:layout_marginRight="-8dp"
+                    android:id="@+id/btn_player2" 
+                    android:text="2"
+                    android:background="@drawable/buttonstyle"
+                    android:textSize="12sp"
+                    
+                    android:textAlignment="center"
+                   
+                    android:layout_marginTop="5dp" 
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical" 
+                    android:layout_width="60dp"
+                    android:paddingLeft="20sp"
+                    android:layout_height="30dp" 
+                    android:layout_marginLeft="0dp" />
+                 <Button 
+                    android:textColor="#FF000000" 
+                    android:layout_weight="0" 
+                    android:id="@+id/btn_player3" 
+                    android:layout_marginRight="-10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="3" 
+                    android:textSize="12sp"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical" 
+                    android:layout_width="60dp"
+                    android:paddingLeft="20sp"
+                    android:background="@drawable/buttonstyle"
+                    android:layout_height="30dp" 
+                    android:layout_marginLeft="0dp" />
+                  <Button 
+                    android:textColor="#FF000000" 
+                    android:layout_weight="0" 
+                    android:id="@+id/btn_player4" 
+                    android:layout_marginTop="5dp"
+                    android:text="4" 
+                    android:textSize="12sp"
+                    android:paddingLeft="20sp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/buttonstyle"
+                    android:layout_gravity="center_vertical" 
+                    android:layout_width="60dp"
+                    android:layout_height="30dp" 
+                    android:layout_marginLeft="0dp" />
+
+            </LinearLayout>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:textSize="14sp"
+                android:layout_marginLeft="60dp"
+                android:text="No. of Players"/>
+ </LinearLayout>
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:orientation="vertical" > 
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+                  android:id="@+id/Name"
+                  style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center_horizontal"
+                  android:layout_marginLeft="50dp"
+                  android:layout_marginRight="10dp"
+                  
+                  android:background="#00000000"
+                  android:text="Registration Fee: Rs.200/Player"
+                  
+                  android:padding="5dp"
+                  android:scrollHorizontally="true"
+                  android:singleLine="true"
+                  android:textColor="#424242"
+                  android:textSize="12sp" >
+
+        </TextView>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_alignBottom="@+id/Name"
+                            android:gravity="center_horizontal"
+                             android:layout_marginLeft="50dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="10dp"
+                            android:background="#005877" />
+                        </RelativeLayout>
+</LinearLayout>
+
+ <LinearLayout
+     android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:id="@+id/player1"
+        android:orientation="vertical" > 
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        
+      <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/golf_playe"/>
+      <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="#3061e5"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="5dp"
+          android:textSize="14sp"
+          android:text="Player 1"/>
+            <TextView
+                android:id="@+id/total_amount"
+                android:text="Total amount:- 1800 "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#3061e5"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="14sp"
+                />
+      </LinearLayout>
+      <EditText
+                  
+                  style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="15dp"
+                  android:background="#00000000"
+                  android:hint="Name"
+                  android:id="@+id/name1"
+                  android:inputType="text"
+                  android:padding="5dp"
+                  android:scrollHorizontally="true"
+                  android:singleLine="true"
+                  android:textColor="#424242"
+                  android:textSize="14sp" >
+
+        </EditText>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#005877" />
+                        <EditText
+                 
+                  style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="15dp"
+                  android:background="#00000000"
+                  android:hint="Email ID"
+                  android:id="@+id/emailID1"
+                  android:inputType="textEmailAddress"
+                  android:padding="5dp"
+                  android:scrollHorizontally="true"
+                  android:singleLine="true"
+                  android:textColor="#424242"
+                  android:textSize="14sp" >
+
+        </EditText>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#005877" />
+                        <EditText
+                  
+                  style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="15dp"
+                  android:background="#00000000"
+                  android:hint="Mobile"
+                  android:id="@+id/mobile1"
+                  android:inputType="number"
+                  android:padding="5dp"
+                  android:scrollHorizontally="true"
+                  android:singleLine="true"
+                  android:textColor="#424242"
+                  android:textSize="14sp" >
+
+        </EditText>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#005877" />
+                        <EditText
+                 
+                  style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="15dp"
+                  android:background="#00000000"
+                  android:hint="HandiCap"
+                  android:id="@+id/handicap1"
+                  android:inputType="number"
+                  android:padding="5dp"
+                  android:scrollHorizontally="true"
+                  android:singleLine="true"
+                  android:textColor="#424242"
+                  android:textSize="14sp" >
+
+        </EditText>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#005877" />
+                        
+         
+        </LinearLayout>
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:id="@+id/player2"
+        android:visibility="gone"
+        android:orientation="vertical" > 
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        
+      <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+             android:layout_marginTop="5dp"
+            android:src="@drawable/golf_playe"/>
+      <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="#3061e5"
+          android:layout_marginTop="12dp"
+          android:layout_marginLeft="5dp"
+          android:textSize="14sp"
+          android:text="Player 2"/>
+      </LinearLayout>
+      <EditText
+                  
+                  style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="15dp"
+                  android:background="#00000000"
+                  android:hint="Name"
+                  android:id="@+id/name2"
+                  android:inputType="text"
+                  android:padding="5dp"
+                  android:scrollHorizontally="true"
+                  android:singleLine="true"
+                  android:textColor="#424242"
+                  android:textSize="14sp" >
+
+        </EditText>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#005877" />
+                        <EditText
+                 
+                  style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="15dp"
+                  android:background="#00000000"
+                  android:hint="Email ID"
+                  android:id="@+id/emailId2"
+                  android:inputType="textEmailAddress"
+                  android:padding="5dp"
+                  android:scrollHorizontally="true"
+                  android:singleLine="true"
+                  android:textColor="#424242"
+                  android:textSize="14sp" >
+
+        </EditText>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#005877" />
+                        <EditText
+                  
+                  style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="15dp"
+                  android:background="#00000000"
+                  android:hint="Mobile"
+                  android:id="@+id/mobile2"
+                  android:inputType="number"
+                  android:padding="5dp"
+                  android:scrollHorizontally="true"
+                  android:singleLine="true"
+                  android:textColor="#424242"
+                  android:textSize="14sp" >
+
+        </EditText>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#005877" />
+                        <EditText
+                 
+                  style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="15dp"
+                  android:background="#00000000"
+                  android:hint="HandiCap"
+                  android:id="@+id/handicap2"
+                  android:inputType="number"
+                  android:padding="5dp"
+                  android:scrollHorizontally="true"
+                  android:singleLine="true"
+                  android:textColor="#424242"
+                  android:textSize="14sp" >
+
+        </EditText>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="10dp"
+                            android:background="#005877" />
+                        
+         
+        </LinearLayout>
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:visibility="gone"
+        android:id="@+id/player3"
+        android:orientation="vertical" > 
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        
+      <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/golf_playe"/>
+      <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="#3061e5"
+          android:textSize="14sp"
+          android:layout_marginTop="12dp"
+          android:layout_marginLeft="5dp"
+          android:text="Player 3"/>
+      </LinearLayout>
+      <EditText
+                  
+                  style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="15dp"
+                  android:background="#00000000"
+                  android:hint="Name"
+                  android:id="@+id/name3"
+                  android:inputType="text"
+                  android:padding="5dp"
+                  android:scrollHorizontally="true"
+                  android:singleLine="true"
+                  android:textColor="#424242"
+                  android:textSize="14sp" >
+
+        </EditText>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="10dp"
+                            android:background="#005877" />
+                        <EditText
+                 
+                  style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="15dp"
+                  android:background="#00000000"
+                  android:hint="Email ID"
+                  android:id="@+id/emailId3"
+                  android:inputType="textEmailAddress"
+                  android:padding="5dp"
+                  android:scrollHorizontally="true"
+                  android:singleLine="true"
+                  android:textColor="#424242"
+                  android:textSize="14sp" >
+
+        </EditText>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#005877" />
+                        <EditText
+                  
+                  style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="15dp"
+                  android:background="#00000000"
+                  android:hint="Mobile"
+                  android:id="@+id/mobile3"
+                  android:inputType="number"
+                  android:padding="5dp"
+                  android:scrollHorizontally="true"
+                  android:singleLine="true"
+                  android:textColor="#424242"
+                  android:textSize="14sp" >
+
+        </EditText>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="10dp"
+                            android:background="#005877" />
+                        <EditText
+                 
+                  style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="15dp"
+                  android:background="#00000000"
+                  android:hint="HandiCap"
+                  android:id="@+id/handicap3"
+                  android:inputType="number"
+                  android:padding="5dp"
+                  android:scrollHorizontally="true"
+                  android:singleLine="true"
+                  android:textColor="#424242"
+                  android:textSize="14sp" >
+
+        </EditText>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#005877" />
+                        
+         
+        </LinearLayout>
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:id="@+id/player4"
+        android:visibility="gone"
+        android:orientation="vertical" > 
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        
+      <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/golf_playe"/>
+      <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="#3061e5"
+          android:textSize="14sp"
+           android:layout_marginLeft="5dp"
+          android:layout_marginTop="12dp"
+          android:text="Player 4"/>
+      </LinearLayout>
+      <EditText
+                  
+                  style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="15dp"
+                  android:background="#00000000"
+                  android:hint="Name"
+                  android:id="@+id/name4"
+                  android:inputType="text"
+                  android:padding="5dp"
+                  android:scrollHorizontally="true"
+                  android:singleLine="true"
+                  android:textColor="#424242"
+                  android:textSize="14sp" >
+
+        </EditText>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#005877" />
+                        <EditText
+                 
+                  style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="15dp"
+                  android:background="#00000000"
+                  android:hint="Email ID"
+                  android:id="@+id/emailId4"
+                  android:inputType="textEmailAddress"
+                  android:padding="5dp"
+                  android:scrollHorizontally="true"
+                  android:singleLine="true"
+                  android:textColor="#424242"
+                  android:textSize="14sp" >
+
+        </EditText>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#005877" />
+                        <EditText
+                  
+                  style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="15dp"
+                  android:background="#00000000"
+                  android:hint="Mobile"
+                  android:id="@+id/mobile4"
+                  android:inputType="number"
+                  android:padding="5dp"
+                  android:scrollHorizontally="true"
+                  android:singleLine="true"
+                  android:textColor="#424242"
+                  android:textSize="14sp" >
+
+        </EditText>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#005877" />
+                        <EditText
+                 
+                  style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="15dp"
+                  android:background="#00000000"
+                  android:hint="HandiCap"
+                  android:id="@+id/handicap4"
+                  android:inputType="number"
+                  android:padding="5dp"
+                  android:scrollHorizontally="true"
+                  android:singleLine="true"
+                  android:textColor="#424242"
+                  android:textSize="14sp" >
+
+        </EditText>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#005877" />
+                        
+         
+        </LinearLayout>
+        
+        
+        
+       <LinearLayout 
+           android:layout_weight="10"
+           android:layout_height="0dp"
+           android:layout_width="match_parent">
+           <Button 
+               android:id="@+id/register"
+               android:layout_width="match_parent"
+               android:layout_height="40dp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:layout_marginTop="20dp"
+               android:text="REGISTER"
+               android:textColor="#FFFFFF"
+               android:textSize="14sp"
+               
+               android:background="#3061e5"  />
+       </LinearLayout>
+    <LinearLayout 
+           android:layout_weight="20"
+           android:layout_height="0dp"
+           android:layout_width="match_parent">  
+           
+         <TextView
+               android:id="@+id/textregister"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text=" "
+               />
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

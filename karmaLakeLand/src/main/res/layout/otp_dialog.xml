@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="150dp"
+    android:background="@color/dialog_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="1dp"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <LinearLayout
+           android:layout_margin="5dp"
+            android:background="@color/pressed_color"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".7"
+            android:gravity="center">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter OTP"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <EditText
+                android:textSize="13dp"
+                android:textColor="#000"
+                android:id="@+id/et_otp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:hint=" Enter OTP here"
+                android:maxLength="6" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <LinearLayout
+
+                android:layout_weight=".6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textSize="11dp"
+                   android:layout_marginLeft="10dp"
+                    android:text="Haven't received the Code yet?"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight=".3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textSize="13dp"
+                    android:id="@+id/tv_resend"
+                    android:textColor="@color/pressed_color"
+                    android:text="Resend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+<LinearLayout
+    android:background="@color/dialog_background"
+    android:layout_width="match_parent"
+    android:layout_height="1dp">
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".9"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+
+                android:id="@+id/btn_confirm"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Confirm"
+                    android:textColor="@color/pressed_color"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/dialog_background"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Cancel"
+                    android:textColor="@color/pressed_color"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

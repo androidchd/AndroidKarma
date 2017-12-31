@@ -1,0 +1,21 @@
+-keep class org.apache.http.** { *; }
+-dontwarn org.apache.http.
+-dontwarn okio.**
+-dontwarn org.apache.lang.**
+-dontwarn com.android.volley.**
+-dontwarn com.squareup.okhttp.**
+-keep class android.support.design.widget.** { *; }
+-keep interface android.support.design.widget.** { *; }
+-dontwarn android.support.design.**
+-dontwarn com.google.gson.**
+-dontwarn java.nio.file.**
+-dontwarn com.google.android.gms.**
+-libraryjars <java.home>/lib/rt.jar
+-dontwarn javax.xml.stream.events.**
+-dontwarn org.simpleframework.xml.stream.**
+-keep class org.brickred.** { *; }
+-dontwarn org.brickred.**
+-keep class android.content.Context {
+    public java.io.File getExternalCacheDir();
+}
+

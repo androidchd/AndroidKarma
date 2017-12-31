@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\facebook\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Android\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-9.4.0.aar\\13f42c614e4d1a134e544f881c9bd869\\res\\values-en-rCA\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "292",
+                        "endColumns": "103",
+                        "endOffsets": "391"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "103",
+                        "endOffsets": "154"
+                    }
+                }
+            ]
+        }
+    ]
+}

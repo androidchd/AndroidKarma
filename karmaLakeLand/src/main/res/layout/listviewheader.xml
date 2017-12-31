@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="40dp"
+        android:background="@mipmap/ic_launcher"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:id="@+id/rusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="HERO.OTF"
+            android:gravity="center_vertical"
+            android:paddingLeft="9dp"
+            android:paddingTop="1dp"
+            android:text="User Name"
+            android:textColor="#000000"
+            android:textSize="12sp"  />
+
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:id="@+id/ruserNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="HERO.OTF"
+            android:paddingBottom="3dp"
+            android:paddingLeft="11dp"
+            android:text="Number"
+            android:textColor="#000000"
+            android:textSize="12sp"  />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\chipsEditTextLibrary\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\chipsEditTextLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,114",
+                        "endLines": "2,5",
+                        "endColumns": "58,12",
+                        "endOffsets": "109,184"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+com.kpbird.chipsedittextlibrary
+int drawable android 0x7f090001
+int drawable chips_edittext_gb 0x7f090002
+int drawable ic_launcher 0x7f090003
+int id edtTxt1 0x7f0c0001
+int id imageView1 0x7f0c0002
+int id textView1 0x7f0c0003
+int layout chips_adapter 0x7f0f0001
+int layout chips_edittext 0x7f0f0002
+int string app_name1 0x7f150001
+int style AppBaseTheme 0x7f160001
+int style AppThemeChip 0x7f160002

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pressed_color">#3061e5</color>
+    <color name="default_color">#ffffff</color>
+    <color name="your_color">#3061e5</color>
+    <color name="apptheme_color">#a0161616</color>
+    <color name="dialog_background">#a0cfcdcd</color>
+</resources>

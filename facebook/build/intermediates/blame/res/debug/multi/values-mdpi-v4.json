@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\facebook\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mdpi-v4\\values-mdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "C:\\Android\\.android\\build-cache\\7b417b68a340bf0ee9081ab49ff88219365b4faf\\output\\res\\values-mdpi-v4\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 178,
+                        "endColumn": 63,
+                        "endOffset": 237
+                    }
+                }
+            }
+        ]
+    }
+]

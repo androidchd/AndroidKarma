@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FFFFFF"
+    android:weightSum="100">
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical" >
+
+      <RelativeLayout
+                        android:id="@+id/linear_first"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:padding="10dp" >
+
+                        <ImageButton
+                            android:background="#FFFFFF"
+                            android:id="@+id/favriot"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            
+                            android:layout_marginTop="5dp"
+                            
+                            android:clickable="true"
+                            android:src="@drawable/back_icon" />
+
+                        <TextView
+                            android:id="@+id/tv_header_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center_horizontal"
+                            android:text="Book Tee Time"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+                        
+                        
+                    </RelativeLayout>
+              <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@android:color/darker_gray"/>         
+</LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:layout_weight="10"
+       >
+       
+        
+                <TextView
+                     android:id="@+id/timeslot"
+                      android:layout_weight="8"
+                      android:layout_gravity="center_horizontal"
+                     android:layout_height="35dp"
+                     android:layout_width="wrap_content"
+                     android:layout_marginLeft="20dp"
+                     android:layout_marginRight="20dp"
+                     android:layout_marginTop="5dp"
+                     android:text="TIME SLOT"
+                     android:textSize="14sp"
+                     android:textColor="#ffffff"
+                     android:gravity="center"
+                     android:background="@drawable/time_slot_btn"
+                    />
+                    
+      </LinearLayout>        
+               
+            
+        
+        
+        
+        <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="7"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+          
+             android:layout_marginLeft="80dp"
+            android:layout_height="wrap_content">
+       <ImageView 
+           android:layout_width="20dp"
+           android:layout_marginTop="2dp"
+           android:layout_height="wrap_content"
+           android:src="@drawable/avilable"/>
+       <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           
+           android:textSize="10sp"
+           android:layout_marginLeft="-1dp"
+           android:text="Available"/>
+        <ImageView 
+           android:layout_width="20dp"
+            android:layout_marginTop="2dp"
+           android:layout_height="wrap_content"
+           android:src="@drawable/selectionnicon"/>
+       <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+          
+           android:textSize="10sp"
+           android:layout_marginLeft="1dp"
+           android:text="Selection"/>
+        <ImageView 
+           android:layout_width="20dp"
+           android:layout_marginTop="2dp"
+           android:layout_height="wrap_content"
+           android:src="@drawable/noavilable"/>
+       <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+          
+           android:textSize="10sp"
+           android:layout_marginLeft="-2dp"
+           android:text="Not available"/>
+            
+            
+            
+         <!--    <RadioGroup
+        android:id="@+id/radioSex"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="65dp"
+        android:layout_weight="1"
+        android:checkedButton="@+id/Yourselection"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/Available"
+            android:layout_width="70dp"
+            android:layout_height="18dp"
+            android:text="Available" 
+             style="@style/RadioButtonAppTheme1"
+            android:textSize="8sp"
+            android:drawablePadding="70dp"
+            android:checked="true" />
+        </RadioGroup>
+  <RadioGroup
+        android:id="@+id/radioex"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" >
+        <RadioButton
+            android:id="@+id/Yourselection"
+            android:layout_width="70dp"
+            android:layout_height="18dp"
+            android:textSize="8sp"
+            
+            android:text="Selection" />
+        </RadioGroup>
+              <RadioGroup
+        android:id="@+id/radioSe"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content" >
+          <RadioButton
+            android:id="@+id/notavailable"
+            android:layout_width="85dp"
+            android:layout_marginRight="1dp"
+            android:layout_height="18dp"
+             android:checked="TRUE"
+           
+            android:textSize="8sp"
+           
+           
+            android:text="Not Available" />
+          
+
+    </RadioGroup> -->
+    </LinearLayout>
+    
+        
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#FFFFFF"
+            android:layout_weight="73">
+        <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<FrameLayout
+	    android:id="@+id/timeslotframe"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	>
+     </FrameLayout>
+     </RelativeLayout>       
+        </LinearLayout>
+         
+       <!--  <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="50"
+        >
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+      
+
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Available"
+            android:layout_marginStart="30dp"
+            android:textSize="10dp" 
+            />
+
+        <RadioButton
+            android:id="@+id/yourselection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Selection" 
+            android:checked="true"
+            android:textColor="#3061e5"
+            android:textSize="10dp"/>
+
+         <RadioButton
+            android:id="@+id/notavailable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textColor="#b0b0b2"
+            android:text="Not available" 
+            android:textSize="10dp"/>
+            
+        </LinearLayout>
+        </LinearLayout>
+        
+    </LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="10"
+    android:orientation="vertical">
+      <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="1st Session(5 am -9am)"
+          android:layout_marginStart="20dp"
+          android:textStyle="bold"/>
+        </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_weight="10">
+      
+      <LinearLayout 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="85dp"
+            
+            android:src="@drawable/time_slote_bg" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/time_slote_bg" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/time_slote_bg" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/time_slote_bg" />
+          
+      </LinearLayout>
+      
+        <View
+                 android:layout_width="match_parent"
+                 android:layout_height="2dp"
+                 android:layout_marginEnd="20dp"
+                 android:layout_marginStart="20dp"
+                 android:background="@android:color/darker_gray"/>
+        
+    </LinearLayout>
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="10">
+      <LinearLayout 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="85dp"
+            android:src="@drawable/time_slote_bg" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/time_slote_bg" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/time_slote_bg" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/time_slote_bg" />
+       
+          
+      </LinearLayout>
+        <View
+                 android:layout_width="match_parent"
+                 android:layout_height="2dp"
+                 android:layout_marginEnd="20dp"
+                 android:layout_marginStart="20dp"
+                 android:background="@android:color/darker_gray"/>
+    </LinearLayout>
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="10">
+      <LinearLayout 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="85dp"
+            android:src="@drawable/time_slote_bg" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/time_slote_bg" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/time_slote_bg" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/time_slote_bg" />
+          
+      </LinearLayout>
+      <View
+                 android:layout_width="match_parent"
+                 android:layout_height="2dp"
+                 android:layout_marginEnd="20dp"
+                 android:layout_marginStart="20dp"
+                 android:background="@android:color/darker_gray"/>
+        
+    </LinearLayout>
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="10">
+      <LinearLayout 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="85dp"
+            android:src="@drawable/time_slote_bg" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/time_slote_bg" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/time_slote_bg" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/time_slote_bg" />
+          
+      </LinearLayout>
+         <View
+                 android:layout_width="match_parent"
+                 android:layout_height="2dp"
+                 android:layout_marginEnd="20dp"
+                 android:layout_marginStart="20dp"
+                 android:background="@android:color/darker_gray"/>
+    </LinearLayout>
+     <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="20"
+    android:weightSum="2"
+    android:orientation="vertical">
+         <LinearLayout 
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1"
+             android:orientation="vertical">
+      <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="2nd Session(9am -1pm)"
+          android:layout_marginStart="20dp"
+          android:layout_marginTop="5dp"
+          android:textStyle="bold"/>
+      </LinearLayout> 
+       <LinearLayout 
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1"
+             android:orientation="vertical">
+      <LinearLayout 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="85dp"
+            android:src="@drawable/time_slote_bg" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/time_slote_bg" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/time_slote_bg" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/time_slote_bg" />
+          
+      </LinearLayout>
+        <View
+                 android:layout_width="match_parent"
+                 android:layout_height="2dp"
+                 android:layout_marginEnd="20dp"
+                 android:layout_marginStart="20dp"
+                 android:background="@android:color/darker_gray"/>
+      </LinearLayout>
+      </LinearLayout> -->
+      
+</LinearLayout>

@@ -1,0 +1,28 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 24
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+dependencies {
+    compile 'org.jetbrains:annotations-java5:15.0'
+    //noinspection GradleCompatible
+    compile 'com.android.support:support-v4:24.0.0'
+    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'com.android.support:support-annotations:24.0.0'
+    compile 'com.facebook.android:facebook-android-sdk:3.21.1'
+    compile 'com.google.android.gms:play-services:9.4.0'
+}
+

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical" >
+                  <RelativeLayout
+    
+    android:id="@+id/RelativeLayout01" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    >
+                  <EditText
+                  android:id="@+id/Name"
+                  style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="10dp"
+                  android:background="#00000000"
+                  android:hint="Card No."
+                  android:inputType="text"
+                  android:padding="5dp"
+                  android:scrollHorizontally="true"
+                  android:singleLine="true"
+                  android:textColor="#424242"
+                  android:textSize="12sp" >
+
+        </EditText>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/Name"
+                            android:background="#005877" />
+             
+         </RelativeLayout>
+</LinearLayout>
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical" >
+      <RelativeLayout
+       android:id="@+id/RelativeLayout04" 
+       android:layout_width="fill_parent" 
+       android:layout_height="fill_parent"
+        >
+         <EditText
+                  android:id="@+id/Expirydate"
+                  style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="10dp"
+                  android:background="#00000000"
+                  android:hint="Expiry Date"
+                  android:inputType="text"
+                  android:padding="5dp"
+                  android:scrollHorizontally="true"
+                  android:singleLine="true"
+                  android:textColor="#424242"
+                  android:textSize="12sp" >
+
+        </EditText>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/Expirydate"
+                            android:background="#005877" />     
+           
+         </RelativeLayout>
+</LinearLayout>
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical" >
+                  <RelativeLayout
+    
+    android:id="@+id/RelativeLayout05" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    >
+                <EditText
+                  android:id="@+id/Nameoncard"
+                  style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="10dp"
+                  android:background="#00000000"
+                  android:hint="Name as on card"
+                  android:inputType="text"
+                  android:padding="5dp"
+                  android:scrollHorizontally="true"
+                  android:singleLine="true"
+                  android:textColor="#424242"
+                  android:textSize="12sp" >
+
+        </EditText>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/Nameoncard"
+                            android:background="#005877" />     
+             
+         </RelativeLayout>
+</LinearLayout>
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical" >
+                  <RelativeLayout
+    
+    android:id="@+id/RelativeLayout06" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    >
+               <EditText
+                  android:id="@+id/CVV"
+                  style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginTop="10dp"
+                  android:background="#00000000"
+                  android:hint="CVV"
+                  android:inputType="text"
+                  android:padding="5dp"
+                  android:scrollHorizontally="true"
+                  android:singleLine="true"
+                  android:textColor="#424242"
+                  android:textSize="12sp" >
+
+        </EditText>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_below="@+id/CVV"
+                            android:background="#005877" />  
+            
+         </RelativeLayout>
+</LinearLayout>
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical" >
+                  <LinearLayout 
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+              <RadioButton 
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:text="Save this card and make 1 touch payments"
+                  android:textSize="12sp"/>
+                      
+                  </LinearLayout>
+                  
+                  </LinearLayout>
+             -->
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="10"
+
+    android:orientation="vertical"
+    >
+                  <RelativeLayout 
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      >
+
+    <TextView
+        android:id="@+id/totalefee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="158dp"
+        android:text="Rs 4500"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="TOTAL BOOKING AMOUNT"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    </RelativeLayout>
+</LinearLayout>   
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+             
+             <Button
+                 android:layout_width="match_parent"
+                 android:layout_height="40dp"
+                 android:id="@+id/paysecurely"
+                 android:textColor="#FFFFFF"
+                 android:textSize="14sp"
+                 android:background="#3061e5"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginTop="5dp"
+                 android:layout_marginRight="20dp"
+                 android:text="PAY ON COURSE"/>
+         </LinearLayout>
+         <LinearLayout 
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_marginTop="10dp"
+             android:layout_weight="1">
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_marginLeft="40dp"
+                   android:layout_marginRight="40dp"
+                   android:src="@drawable/footer" />
+
+            </LinearLayout>
+    
+
+</LinearLayout>

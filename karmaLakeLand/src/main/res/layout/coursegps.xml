@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/flag"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/flag">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/golftext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/flag"
+                    android:text="Hole No 1"
+                    android:textColor="#3061e5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/golftext"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Distance from the pin" />
+            </RelativeLayout>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TableRow
+                    android:id="@+id/tablerow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/tee"
+                        android:layout_width="90dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Tee" />
+
+                    <TextView
+                        android:id="@+id/yards"
+                        android:layout_width="90dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Yard"
+                        android:textColor="#000000" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablewrow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tablerow1"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/Black"
+                        android:layout_width="90dp"
+                        android:layout_height="20dp"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:text="Black"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/blackyard"
+                        android:layout_width="90dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="300"
+                        android:textColor="#000000" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablewrow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tablerow2"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/Blue"
+                        android:layout_width="90dp"
+                        android:layout_height="20dp"
+                        android:background="#3061e5"
+                        android:gravity="center"
+                        android:text="Blue"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/blueyard"
+                        android:layout_width="90dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="300"
+                        android:textColor="#000000" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablewrow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/tablewrow5"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/White"
+                        android:layout_width="90dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="White"/>
+
+                    <TextView
+                        android:id="@+id/whiteyard"
+                        android:layout_width="90dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="300"
+                        android:textColor="#000000"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablewrow5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/Red"
+                        android:layout_width="90dp"
+                        android:layout_height="20dp"
+                        android:background="#FF0000"
+                        android:gravity="center"
+                        android:text="Red"
+                        android:textColor="#FFFFFF"/>
+
+                    <TextView
+                        android:id="@+id/redyard"
+                        android:layout_width="90dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="300"
+                        android:textColor="#000000"/>
+
+                </TableRow>
+
+
+            </TableLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/distancecal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Distance Calculator"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/distanceicon"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/distancecal"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="1dp"
+                    android:src="@drawable/gps_icon"/>
+
+                <TextView
+                    android:id="@+id/knowthedistance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/distanceicon"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="2dp"
+                    android:lines="3"
+                    android:text="To know the distance to the \npin from your current location"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/clickhere"
+                    android:layout_width="170dp"
+                    android:layout_height="28dp"
+                    android:layout_below="@+id/knowthedistance"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#3061e5"
+                    android:text="CLICK HERE"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/distance"
+                    android:layout_width="170dp"
+                    android:layout_height="28dp"
+                    android:layout_below="@+id/clickhere"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#B8B8B8"
+                    android:textSize="14sp" />
+                <!--android:text=" "-->
+
+                <TextView
+                    android:id="@+id/previous"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:clickable="true"
+                    android:paddingBottom="14dp"
+                    android:text="PREVIOUS"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/previousholeicon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:clickable="true"
+                    android:paddingBottom="14dp"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/prev_arrow" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+
+                <View
+                    android:layout_width="1px"
+                    android:layout_height="345dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="20dp"
+
+                    android:background="#3061e5" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/golfid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/hole_one" />
+
+                <TextView
+                    android:id="@+id/nexthole"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:clickable="true"
+                    android:paddingBottom="14dp"
+                    android:paddingRight="25dp"
+                    android:text="NEXT HOLE"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/nextholeicon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+
+                    android:clickable="true"
+
+                    android:paddingBottom="14dp"
+                    android:paddingRight="10dp"
+                    android:src="@drawable/next_arrow" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

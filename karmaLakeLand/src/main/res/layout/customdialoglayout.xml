@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220dp"
+    android:layout_height="190dp"
+      android:background="@android:color/transparent"
+    android:orientation="horizontal" 
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:weightSum="100">
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:weightSum="120">
+       <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_weight="5">
+       <Button 
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingBottom="10dp"
+        android:background="#3061e5"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="Rate Card" />
+       </LinearLayout>
+   
+    <TableLayout 
+        android:layout_width="match_parent"
+        android:id="@+id/tablel1"
+        android:layout_height="match_parent"
+        android:layout_weight="45"
+        android:weightSum="3"
+       
+        
+        >
+    
+   <TableRow
+            android:id="@+id/tablewrow8"                 
+            android:layout_width="match_parent"
+             android:layout_weight="1"
+             android:layout_height="0dp"
+             android:weightSum="3"
+             android:background="#FFFFFF"
+           
+          >
+       <TextView
+              android:layout_weight="1"
+              android:background="@drawable/pop_up_button"
+              android:text="Day"
+              android:layout_height="match_parent"
+              android:textColor="#3061e5"
+             
+              android:gravity="center"
+              android:textSize="12sp" />
+
+          <TextView
+              android:layout_weight="1"
+              android:background="@drawable/pop_up_button"
+              android:text="9 Hole"
+              android:layout_height="match_parent"
+              android:textColor="#3061e5"
+           
+              android:gravity="center"
+              android:textSize="12sp" />
+
+          <TextView
+              android:layout_weight="1"
+              android:layout_height="match_parent"
+              android:background="@drawable/pop_up_button"
+              android:gravity="center"
+              android:textColor="#3061e5"
+              android:text="18 Hole"
+       
+              android:textSize="12sp" />
+
+         
+   </TableRow> 
+   <TableRow
+            android:id="@+id/tablewrow9"                 
+            android:layout_width="match_parent"
+           
+             android:weightSum="3"
+             android:layout_weight="1"
+             android:layout_height="0dp"
+             android:background="#FFFFFF"
+            
+          >
+       
+          <TextView
+              android:layout_weight="1"
+              android:id="@+id/dayID1"
+              android:background="@drawable/pop_up_button"
+              android:gravity="center"
+              android:text="Mon-Fri"
+              android:layout_height="match_parent"
+  
+              android:textSize="12sp" />
+
+          <TextView
+              android:layout_weight="1"
+              android:background="@drawable/pop_up_button"
+              android:gravity="center"
+              android:text="Rs.900"
+              android:id="@+id/holerate91"
+              android:layout_height="match_parent"
+        
+              android:textSize="12sp" />
+
+          <TextView
+              android:layout_weight="1"
+              android:background="@drawable/pop_up_button"
+              android:gravity="center"
+              android:id="@+id/holerate181"
+              android:text="Rs.1300"
+              android:layout_height="match_parent"
+     
+              android:textSize="12sp" />
+   </TableRow>
+    <TableRow
+                            
+            android:layout_width="match_parent"
+          
+             android:weightSum="3"
+             android:background="#FFFFFF"
+             android:layout_weight="1"
+             android:layout_height="0dp"
+            
+          >
+       
+          <TextView
+              android:layout_weight="1"
+              android:id="@+id/dayID11"
+              android:background="@drawable/pop_up_button"
+              android:gravity="center"
+              android:text="Mon-Fri"
+              android:layout_height="match_parent"
+          
+              android:textSize="12sp" />
+
+          <TextView
+              android:layout_weight="1"
+              android:background="@drawable/pop_up_button"
+              android:gravity="center"
+              android:text="Rs.900"
+              android:id="@+id/holerate911"
+              android:layout_height="match_parent"
+        
+              android:textSize="12sp" />
+
+          <TextView
+              android:layout_weight="1"
+              android:background="@drawable/pop_up_button"
+              android:gravity="center"
+              android:id="@+id/holerate1811"
+              android:text="Rs.1300"
+              android:layout_height="match_parent"
+              
+              android:textSize="12sp" />
+   </TableRow> 
+              
+   
+   
+  
+   
+   
+   
+   
+   
+
+    </TableLayout> 
+    
+   
+    
+    <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+    
+
+       android:layout_weight="60">
+    <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="horizontal"
+    
+  
+       android:weightSum="2">
+  
+ <Button 
+        android:id="@+id/ok"
+        
+       
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:layout_height="35dp"
+        android:background="#3061e5"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:text="OK"
+        android:textColor="#FFFFFF"
+        android:gravity="center"></Button>
+  <Button 
+        android:id="@+id/cancel"
+        
+       
+       android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+      
+        android:layout_marginRight="20dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:background="#B0B0B2"
+        android:textColor="#FFFFFF"
+        android:text="Cancel"
+        
+        android:gravity="center"></Button>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>

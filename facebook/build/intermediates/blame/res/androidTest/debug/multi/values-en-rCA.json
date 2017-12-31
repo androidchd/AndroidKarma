@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\facebook\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 103,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "C:\\Android\\.android\\build-cache\\9fe0ed3c891c6e94ffa33b87629439fa98ad36cc\\output\\res\\values-en-rCA\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 292,
+                        "endColumn": 103,
+                        "endOffset": 391
+                    }
+                }
+            }
+        ]
+    }
+]

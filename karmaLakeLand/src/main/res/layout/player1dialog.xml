@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="170dp"
+      android:background="@android:color/transparent"
+    android:orientation="horizontal" 
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:weightSum="100">
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:weightSum="100">
+       <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_weight="3">
+       <Button 
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingBottom="10dp"
+        android:background="#3061e5"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="Player Detail" />
+       </LinearLayout>
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_weight="1">
+    <RadioGroup
+        android:id="@+id/radioSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Member" 
+            android:textSize="14sp"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Non Member" />
+
+    </RadioGroup>
+    
+   </LinearLayout>
+ 
+
+
+    
+    <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="horizontal"
+    android:weightSum="2"
+  
+       android:layout_weight="10">
+  
+ <Button 
+        android:id="@+id/ok"
+        android:layout_marginTop="10dp"
+       android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/buttonstyle4"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+     
+        android:text="OK" />
+  <Button 
+        android:id="@+id/cancel"
+        android:layout_marginLeft="5dp"
+       android:layout_weight="1"
+       android:layout_marginRight="20dp"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+       android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="#B0B0B2"
+       
+        android:text="Cancel" />
+</LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
+

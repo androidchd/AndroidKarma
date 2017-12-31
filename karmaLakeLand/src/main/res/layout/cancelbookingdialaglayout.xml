@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="190dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#3061e5"
+                android:paddingBottom="10dp"
+                android:text="Cancel Booking"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/cancellbooking"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1.2"
+                android:gravity="center"
+                android:text="Are you sure you want to cancel your booking?"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.8"
+                android:gravity="center"
+                android:text="Cancellations charges of Rs 100 would apply."
+                android:textColor="#3061e5"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/ok"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonstyle4"
+                android:gravity="center"
+                android:text="OK"
+                android:textColor="#FFFFFF"
+
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/cancel"
+
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="#B0B0B2"
+                android:gravity="center"
+                android:text="Cancel"
+                android:textColor="#FFFFFF"
+
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\build\\intermediates\\res\\merged\\debug\\drawable\\textview_background_right_corners_round.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\src\\main\\res\\drawable\\textview_background_right_corners_round.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\build\\intermediates\\res\\merged\\debug\\drawable\\textview_background_left_corners_round.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\src\\main\\res\\drawable\\textview_background_left_corners_round.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\build\\intermediates\\res\\merged\\debug\\drawable\\textview_background_all_corners_round.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\src\\main\\res\\drawable\\textview_background_all_corners_round.xml"
+    }
+]

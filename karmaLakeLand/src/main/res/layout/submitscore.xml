@@ -1,0 +1,3357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="236">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/golf_icon" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/hole9"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="-7dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttonstyle"
+                    android:text="9 Holes"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+
+                <Button
+                    android:id="@+id/hole18"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="#3061e5"
+                    android:paddingLeft="0dp"
+                    android:text="18 Holes"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layouthole1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/flagdrawable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/flag" />
+
+                    <TextView
+                        android:id="@+id/submithole1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/flagdrawable"
+                        android:text="Hole No.1"
+                        android:textColor="#3061e5"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                      android:layout_marginTop="25dp"
+                        android:background="@drawable/par_bg"
+                        android:text="Par 4 "
+                        android:textColor="#ffffff"
+
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <TableLayout
+                android:id="@+id/tablelayout1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="43"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TableRow
+                    android:id="@+id/tablerow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/puttstv1"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Number of putts"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/puts1"
+                        style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <TableRow
+
+                    android:id="@+id/tablerow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/strokestv1"
+                        android:layout_height="29dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Total strokes (Including Penalty)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/strokes1"
+                        android:layout_height="29dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <!--<TableRow
+                    android:id="@+id/tablerow3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/penaltytv1"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Penalty (if any)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/penalty1"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+        -->
+
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="27"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/savescore1"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#33CC33"
+                    android:text="SAVE SCORE"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/flagdrawable1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/flag" />
+
+                    <TextView
+                        android:id="@+id/submithole2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/flagdrawable1"
+                        android:text="Hole No.2"
+                        android:textColor="#3061e5"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/par_bg"
+                        android:text="Par 3 "
+                        android:textColor="#ffffff"
+
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="43"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TableRow
+                    android:id="@+id/tablerow4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/puttstv2"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Number of putts"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/putts2"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/strokestv2"
+                        android:layout_height="29dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Total strokes(Including Penalty)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/strokes2"
+                        android:layout_height="29dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <!-- <TableRow
+                     android:id="@+id/tablerow6"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="20dp"
+                     android:gravity="center_horizontal"
+                     android:visibility="visible"
+                     android:weightSum="2">
+
+                     <TextView
+                         android:id="@+id/penaltytv2"
+                         android:layout_height="30dp"
+                         android:layout_marginLeft="30dp"
+                         android:layout_weight="1.2"
+                         android:background="@drawable/buttonstyle"
+                         android:gravity="center"
+                         android:text="Penalty (if any)"
+                         android:textSize="12sp" />
+
+                     <EditText
+                         android:id="@+id/penalty2"
+                         android:layout_height="30dp"
+                         android:layout_marginRight="20dp"
+                         android:layout_weight="0.8"
+                         android:background="@drawable/buttonstyle"
+                         android:gravity="center"
+                         android:inputType="number"
+                         android:textColor="#000000"
+                         android:textSize="12sp" />
+
+                 </TableRow>-->
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="27"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/savescore2"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#33CC33"
+                    android:text="SAVE SCORE"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/flagdrawable3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/flag" />
+
+                    <TextView
+                        android:id="@+id/submithole3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/flagdrawable3"
+                        android:text="Hole No.3"
+                        android:textColor="#3061e5"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/par_bg"
+                        android:text="Par 3 "
+                        android:textColor="#ffffff"
+
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="43"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TableRow
+                    android:id="@+id/tablerow7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/puttstv3"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Number of putts"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/putts3"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/strokestv3"
+                        android:layout_height="29dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Total strokes (Including Penalty)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/strokes3"
+                        android:layout_height="29dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+               <!-- <TableRow
+                    android:id="@+id/tablerow9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:visibility="visible"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/penaltytv3"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Penalty (if any)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/penalty3"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>-->
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="27"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/savescore3"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#33CC33"
+                    android:text="SAVE SCORE"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/flagdrawable5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/flag" />
+
+                    <TextView
+                        android:id="@+id/submithole5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/flagdrawable5"
+                        android:text="Hole No.4"
+                        android:textColor="#3061e5"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/par_bg"
+                        android:text="Par 5 "
+                        android:textColor="#ffffff"
+
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="43"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TableRow
+                    android:id="@+id/tablerow10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/puttstv4"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Number of putts"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/putts4"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/strokestv4"
+                        android:layout_height="29dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Total strokes(Including Penalty)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/strokes4"
+                        android:layout_height="29dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <!-- <TableRow
+                     android:id="@+id/tablerow12"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="20dp"
+                     android:gravity="center_horizontal"
+                     android:visibility="visible"
+                     android:weightSum="2">
+
+                     <TextView
+                         android:id="@+id/penaltytv4"
+                         android:layout_height="30dp"
+                         android:layout_marginLeft="30dp"
+                         android:layout_weight="1.2"
+                         android:background="@drawable/buttonstyle"
+                         android:gravity="center"
+                         android:text="Penalty (if any)"
+                         android:textSize="12sp" />
+
+                     <EditText
+                         android:id="@+id/penalty4"
+                         android:layout_height="30dp"
+                         android:layout_marginRight="20dp"
+                         android:layout_weight="0.8"
+                         android:background="@drawable/buttonstyle"
+                         android:gravity="center"
+                         android:inputType="number"
+                         android:textColor="#000000"
+                         android:textSize="12sp" />
+
+                 </TableRow>-->
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="27"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/savescore4"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#33CC33"
+                    android:text="SAVE SCORE"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/flagdrawable6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/flag" />
+
+                    <TextView
+                        android:id="@+id/submithole6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/flagdrawable6"
+                        android:text="Hole No.5"
+                        android:textColor="#3061e5"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/par_bg"
+                        android:text="Par 4 "
+                        android:textColor="#ffffff"
+
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="43"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TableRow
+                    android:id="@+id/tablerow13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/puttstv5"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Number of putts"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/putts5"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/strokestv5"
+                        android:layout_height="29dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Total strokes (Including Penalty)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/strokes5"
+                        android:layout_height="29dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <!-- <TableRow
+                     android:id="@+id/tablerow15"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="20dp"
+                     android:gravity="center_horizontal"
+                     android:visibility="visible"
+                     android:weightSum="2">
+
+                     <TextView
+                         android:id="@+id/penaltytv5"
+                         android:layout_height="30dp"
+                         android:layout_marginLeft="30dp"
+                         android:layout_weight="1.2"
+                         android:background="@drawable/buttonstyle"
+                         android:gravity="center"
+                         android:text="Penalty (if any)"
+                         android:textSize="12sp" />
+
+                     <EditText
+                         android:id="@+id/penalty5"
+                         android:layout_height="30dp"
+                         android:layout_marginRight="20dp"
+                         android:layout_weight="0.8"
+                         android:background="@drawable/buttonstyle"
+                         android:gravity="center"
+                         android:inputType="number"
+                         android:textColor="#000000"
+                         android:textSize="12sp" />
+
+                 </TableRow>-->
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="27"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/savescore5"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#33CC33"
+                    android:text="SAVE SCORE"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/flagdrawable7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/flag" />
+
+                    <TextView
+                        android:id="@+id/submithole7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/flagdrawable7"
+                        android:text="Hole No.6"
+                        android:textColor="#3061e5"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/par_bg"
+                        android:text="Par 3 "
+                        android:textColor="#ffffff"
+
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="43"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TableRow
+                    android:id="@+id/tablerow16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/puttstv6"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Number of putts"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/putts6"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/strokestv6"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Total strokes (Including Penalty)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/strokes6"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <!-- <TableRow
+                     android:id="@+id/tablerow18"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="20dp"
+                     android:gravity="center_horizontal"
+                     android:visibility="visible"
+                     android:weightSum="2">
+
+                     <TextView
+                         android:id="@+id/penaltytv6"
+                         android:layout_height="30dp"
+                         android:layout_marginLeft="30dp"
+                         android:layout_weight="1.2"
+                         android:background="@drawable/buttonstyle"
+                         android:gravity="center"
+                         android:text="Penalty (if any)"
+                         android:textSize="12sp" />
+
+                     <EditText
+                         android:id="@+id/penalty6"
+                         android:layout_height="30dp"
+                         android:layout_marginRight="20dp"
+                         android:layout_weight="0.8"
+                         android:background="@drawable/buttonstyle"
+                         android:gravity="center"
+                         android:inputType="number"
+                         android:textColor="#000000"
+                         android:textSize="12sp" />
+
+                 </TableRow>-->
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="27"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/savescore6"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#33CC33"
+                    android:text="SAVE SCORE"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/flagdrawable8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/flag" />
+
+                    <TextView
+                        android:id="@+id/submithole8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/flagdrawable8"
+                        android:text="Hole No.7"
+                        android:textColor="#3061e5"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/par_bg"
+                        android:text="Par 4 "
+                        android:textColor="#ffffff"
+
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="43"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TableRow
+                    android:id="@+id/tablerow19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/puttstv7"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Number of putts"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/putts7"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/strokestv7"
+                        android:layout_height="29dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Total strokes (Including Penalty)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/strokes7"
+                        android:layout_height="29dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <!-- <TableRow
+                     android:id="@+id/tablerow21"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="20dp"
+                     android:gravity="center_horizontal"
+                     android:visibility="visible"
+                     android:weightSum="2">
+
+                     <TextView
+                         android:id="@+id/penaltytv7"
+                         android:layout_height="30dp"
+                         android:layout_marginLeft="30dp"
+                         android:layout_weight="1.2"
+                         android:background="@drawable/buttonstyle"
+                         android:gravity="center"
+                         android:text="Penalty(if any)"
+                         android:textSize="12sp" />
+
+                     <EditText
+                         android:id="@+id/penalty7"
+                         android:layout_height="30dp"
+                         android:layout_marginRight="20dp"
+                         android:layout_weight="0.8"
+                         android:background="@drawable/buttonstyle"
+                         android:gravity="center"
+                         android:inputType="number"
+                         android:textColor="#000000"
+                         android:textSize="12sp" />
+
+                 </TableRow>-->
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="27"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/savescore7"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#33CC33"
+                    android:text="SAVE SCORE"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/flagdrawable9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/flag" />
+
+                    <TextView
+                        android:id="@+id/submithole9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/flagdrawable9"
+                        android:text="Hole No.8"
+                        android:textColor="#3061e5"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/par_bg"
+                        android:text="Par 3 "
+                        android:textColor="#ffffff"
+
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="43"
+                android:orientation="vertical"
+
+                android:weightSum="2">
+
+                <TableRow
+                    android:id="@+id/tablerow23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/puttstv8"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Number of putts"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/putts8"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/strokestv8"
+                        android:layout_height="29dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Total strokes (Including Penalty)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/strokes8"
+                        android:layout_height="29dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <!--<TableRow
+                    android:id="@+id/tablerow25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_horizontal"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/penaltytv8"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Penalty (if any)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/penalty8"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>-->
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="27"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/savescore8"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#33CC33"
+                    android:text="SAVE SCORE"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/flagdrawable10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/flag" />
+
+                    <TextView
+                        android:id="@+id/submithole10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/flagdrawable10"
+                        android:text="Hole No.9"
+                        android:textColor="#3061e5"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/par_bg"
+                        android:text="Par 4 "
+                        android:textColor="#ffffff"
+
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="43"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TableRow
+                    android:id="@+id/tablerow26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/puttstv9"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Number of putts"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/putts9"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/strokestv9"
+                        android:layout_height="29dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Total strokes(Including Penalty)"
+
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/strokes9"
+                        android:layout_height="29dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <!-- <TableRow
+                     android:id="@+id/tablerow28"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="20dp"
+                     android:gravity="center_horizontal"
+                     android:visibility="visible"
+                     android:weightSum="2">
+
+                     <TextView
+                         android:id="@+id/penaltytv9"
+                         android:layout_height="30dp"
+                         android:layout_marginLeft="30dp"
+                         android:layout_weight="1.2"
+                         android:background="@drawable/buttonstyle"
+                         android:gravity="center"
+                         android:text="Penalty (if any)"
+                         android:textSize="12sp" />
+
+                     <EditText
+                         android:id="@+id/penalty9"
+                         android:layout_height="30dp"
+                         android:layout_marginRight="20dp"
+                         android:layout_weight="0.8"
+                         android:background="@drawable/buttonstyle"
+                         android:gravity="center"
+                         android:inputType="number"
+                         android:maxLength="3"
+                         android:singleLine="true"
+                         android:textColor="#000000"
+                         android:textSize="12sp" />
+
+                 </TableRow>-->
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="27"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/savescore9"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#33CC33"
+                    android:text="SAVE SCORE"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="visible"
+            android:id="@+id/linearlayout10"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/flagdrawable11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/flag" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/flagdrawable11"
+                        android:text="Hole No.10"
+                        android:textColor="#3061e5"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/par_bg"
+                        android:text="Par 4 "
+                        android:textColor="#ffffff"
+
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <TableLayout
+                android:id="@+id/tablelayout10"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="43"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TableRow
+                    android:id="@+id/tablerow29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/puttstv10"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Number of putts"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/putts10"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/strokestv10"
+                        android:layout_height="29dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Total strokes(Including Penalty)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/strokes10"
+                        android:layout_height="29dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <!-- <TableRow
+                     android:id="@+id/tablerow31"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="20dp"
+                     android:gravity="center_horizontal"
+                     android:visibility="visible"
+                     android:weightSum="2">
+
+                     <TextView
+                         android:id="@+id/penaltytv10"
+                         android:layout_height="30dp"
+                         android:layout_marginLeft="30dp"
+                         android:layout_weight="1.2"
+                         android:background="@drawable/buttonstyle"
+                         android:gravity="center"
+                         android:text="Penalty (if any)"
+                         android:textSize="12sp" />
+
+                     <EditText
+                         android:id="@+id/penalty10"
+                         android:layout_height="30dp"
+                         android:layout_marginRight="20dp"
+                         android:layout_weight="0.8"
+                         android:background="@drawable/buttonstyle"
+                         android:gravity="center"
+                         android:inputType="number"
+                         android:maxLength="3"
+                         android:singleLine="true"
+                         android:textColor="#000000"
+                         android:textSize="12sp" />
+
+                 </TableRow>-->
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="27"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/savescore10"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#33CC33"
+                    android:text="SAVE SCORE"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="visible"
+            android:id="@+id/linearlayout11"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/flagdrawable12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/flag" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/flagdrawable12"
+                        android:text="Hole No.11"
+                        android:textColor="#3061e5"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/par_bg"
+                        android:text="Par 3 "
+                        android:textColor="#ffffff"
+
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <TableLayout
+                android:id="@+id/tablelayout11"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="43"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TableRow
+                    android:id="@+id/tablerow32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/puttstv11"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Number of putts"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/putts11"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/strokestv11"
+                        android:layout_height="29dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Total strokes(Including Penalty)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/strokes11"
+                        android:layout_height="29dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <!-- <TableRow
+                     android:id="@+id/tablerow34"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="20dp"
+                     android:gravity="center_horizontal"
+                     android:visibility="visible"
+                     android:weightSum="2">
+
+                     <TextView
+                         android:id="@+id/penaltytv11"
+                         android:layout_height="30dp"
+                         android:layout_marginLeft="30dp"
+                         android:layout_weight="1.2"
+                         android:background="@drawable/buttonstyle"
+                         android:gravity="center"
+                         android:text="Penalty (if any)"
+                         android:textSize="12sp" />
+
+                     <EditText
+                         android:id="@+id/penalty11"
+                         android:layout_height="30dp"
+                         android:layout_marginRight="20dp"
+                         android:layout_weight="0.8"
+                         android:background="@drawable/buttonstyle"
+                         android:gravity="center"
+                         android:inputType="number"
+                         android:textColor="#000000"
+                         android:textSize="12sp" />
+
+                 </TableRow>-->
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="27"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/savescore11"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#33CC33"
+                    android:text="SAVE SCORE"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="visible"
+            android:id="@+id/linearlayout12"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/flagdrawable13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/flag" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/flagdrawable13"
+                        android:text="Hole No.12"
+                        android:textColor="#3061e5"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/par_bg"
+                        android:text="Par 3 "
+                        android:textColor="#ffffff"
+
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <TableLayout
+                android:id="@+id/tablelayout12"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="43"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TableRow
+                    android:id="@+id/tablerow35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/puttstv12"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Number of putts"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/putts12"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/strokestv12"
+                        android:layout_height="29dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Total strokes(Including Penalty)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/strokes12"
+                        android:layout_height="29dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <!--<TableRow
+                    android:id="@+id/tablerow37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_horizontal"
+                    android:visibility="visible"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/penaltytv12"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Penalty (if any)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/penalty12"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>-->
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="27"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/savescore12"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#33CC33"
+                    android:text="SAVE SCORE"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="visible"
+            android:id="@+id/linearlayout13"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/flagdrawable14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/flag" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/flagdrawable14"
+                        android:text="Hole No.13"
+                        android:textColor="#3061e5"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/par_bg"
+                        android:text="Par 5"
+                        android:textColor="#ffffff"
+
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <TableLayout
+                android:id="@+id/tablelayout13"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="43"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TableRow
+                    android:id="@+id/tablerow38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/puttstv13"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Number of putts"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/putts13"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/strokestv13"
+                        android:layout_height="29dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Total strokes (Including Penalty)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/strokes13"
+                        android:layout_height="29dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <!--  <TableRow
+                      android:id="@+id/tablerow40"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="20dp"
+                      android:gravity="center_horizontal"
+                      android:visibility="visible"
+                      android:weightSum="2">
+
+                      <TextView
+                          android:id="@+id/penaltytv13"
+                          android:layout_height="30dp"
+                          android:layout_marginLeft="30dp"
+                          android:layout_weight="1.2"
+                          android:background="@drawable/buttonstyle"
+                          android:gravity="center"
+                          android:text="Penalty (if any)"
+                          android:textSize="12sp" />
+
+                      <EditText
+                          android:id="@+id/penalty13"
+                          android:layout_height="30dp"
+                          android:layout_marginRight="20dp"
+                          android:layout_weight="0.8"
+                          android:background="@drawable/buttonstyle"
+                          android:gravity="center"
+                          android:inputType="number"
+                          android:maxLength="3"
+                          android:singleLine="true"
+                          android:textColor="#000000"
+                          android:textSize="12sp" />
+
+                  </TableRow>-->
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="27"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/savescore13"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#33CC33"
+                    android:text="SAVE SCORE"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="visible"
+            android:id="@+id/linearlayout14"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/flagdrawable15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/flag" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/flagdrawable15"
+                        android:text="Hole No.14"
+                        android:textColor="#3061e5"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/par_bg"
+                        android:text="Par 4 "
+                        android:textColor="#ffffff"
+
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <TableLayout
+                android:id="@+id/tablelayout14"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="43"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TableRow
+                    android:id="@+id/tablerow41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/puttstv14"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Number of putts"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/putts14"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/strokestv14"
+                        android:layout_height="29dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Total strokes (Including Penalty)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/strokes14"
+                        android:layout_height="29dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <!--<TableRow
+                    android:id="@+id/tablerow43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_horizontal"
+                    android:visibility="visible"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/penaltytv14"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Penalty (if any)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/penalty14"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>-->
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="27"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/savescore14"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#33CC33"
+                    android:text="SAVE SCORE"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="visible"
+            android:id="@+id/linearlayout15"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/flagdrawable16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/flag" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/flagdrawable16"
+                        android:text="Hole No.15"
+                        android:textColor="#3061e5"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/par_bg"
+                        android:text="Par 3 "
+                        android:textColor="#ffffff"
+
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <TableLayout
+                android:id="@+id/tablelayout15"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="43"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TableRow
+                    android:id="@+id/tablerow44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/puttstv15"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Number of putts"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/putts15"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow45"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/strokestv15"
+                        android:layout_height="29dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Total strokes (Including Penalty)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/strokes15"
+                        android:layout_height="29dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <!--<TableRow
+                    android:id="@+id/tablerow46"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_horizontal"
+                    android:visibility="visible"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/penaltytv15"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Penalty (if any)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/penalty15"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+
+                        android:textSize="12sp" />
+
+                </TableRow>-->
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="27"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/savescore15"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#33CC33"
+                    android:text="SAVE SCORE"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="visible"
+            android:id="@+id/linearlayout16"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/flagdrawable17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/flag" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/flagdrawable17"
+                        android:text="Hole No.16"
+                        android:textColor="#3061e5"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/par_bg"
+                        android:text="Par 4 "
+                        android:textColor="#ffffff"
+
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <TableLayout
+                android:id="@+id/tablelayout16"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="43"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TableRow
+                    android:id="@+id/tablerow47"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/puttstv16"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Number of putts"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/putts16"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow48"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/strokestv16"
+                        android:layout_height="29dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Total strokes(Including Penalty)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/strokes16"
+                        android:layout_height="29dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <!-- <TableRow
+                     android:id="@+id/tablerow49"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="20dp"
+                     android:gravity="center_horizontal"
+                     android:visibility="visible"
+                     android:weightSum="2">
+
+                     <TextView
+                         android:id="@+id/penaltytv16"
+                         android:layout_height="30dp"
+                         android:layout_marginLeft="30dp"
+                         android:layout_weight="1.2"
+                         android:background="@drawable/buttonstyle"
+                         android:gravity="center"
+                         android:text="Penalty (if any)"
+                         android:textSize="12sp" />
+
+                     <EditText
+                         android:id="@+id/penalty16"
+                         android:layout_height="30dp"
+                         android:layout_marginRight="20dp"
+                         android:layout_weight="0.8"
+                         android:background="@drawable/buttonstyle"
+                         android:gravity="center"
+                         android:inputType="number"
+                         android:maxLength="3"
+                         android:singleLine="true"
+                         android:textColor="#000000"
+                         android:textSize="12sp" />
+
+                 </TableRow>-->
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="27"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/savescore16"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#33CC33"
+                    android:text="SAVE SCORE"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="visible"
+            android:id="@+id/linearlayout17"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/flagdrawable18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/flag" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/flagdrawable18"
+                        android:text="Hole No.17"
+                        android:textColor="#3061e5"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/par_bg"
+                        android:text="Par 3 "
+                        android:textColor="#ffffff"
+
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <TableLayout
+                android:id="@+id/tablelayout17"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="43"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TableRow
+                    android:id="@+id/tablerow50"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/puttstv17"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Number of putts"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/putts17"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:orientation="horizontal"
+                    android:id="@+id/tablerow51"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/strokestv17"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Total strokes(Including Penalty)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/strokes17"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <!--<TableRow
+                    android:id="@+id/tablerow52"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_horizontal"
+                    android:visibility="visible"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/penaltytv17"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Penalty (if any)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/penalty17"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>-->
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="27"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/savescore17"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#33CC33"
+                    android:text="SAVE SCORE"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="visible"
+            android:id="@+id/linearlayout18"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/flagdrawable19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/flag" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@+id/flagdrawable19"
+                        android:text="Hole No.18"
+                        android:textColor="#3061e5"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/par_bg"
+                        android:text="Par 4 "
+                        android:textColor="#ffffff"
+
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <TableLayout
+                android:id="@+id/tablelayout18"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="43"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TableRow
+                    android:id="@+id/tablerow53"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/puttstv18"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Number of putts"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/putts18"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow54"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/strokestv18"
+                        android:layout_height="29dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:text="Total strokes(Including Penalty)"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/strokes18"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.8"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <!-- <TableRow
+                     android:id="@+id/tablerow55"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="20dp"
+                     android:gravity="center_horizontal"
+                     android:visibility="visible"
+                     android:weightSum="2">
+
+                     <TextView
+                         android:id="@+id/penaltytv18"
+                         android:layout_height="30dp"
+                         android:layout_marginLeft="30dp"
+                         android:layout_weight="1.2"
+                         android:background="@drawable/buttonstyle"
+                         android:gravity="center"
+                         android:text="Penalty (if any)"
+                         android:textSize="12sp" />
+
+                     <EditText
+                         android:id="@+id/penalty18"
+                         android:layout_height="30dp"
+                         android:layout_marginRight="20dp"
+                         android:layout_weight="0.8"
+                         android:background="@drawable/buttonstyle"
+                         android:gravity="center"
+                         android:inputType="number"
+                         android:maxLength="3"
+                         android:singleLine="true"
+                         android:textColor="#000000"
+                         android:textSize="12sp" />
+
+                 </TableRow>-->
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="27"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/savescore18"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+
+                    android:background="#33CC33"
+                    android:text="SAVE SCORE"
+                    android:textSize="12sp"
+                   />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <Button
+
+                android:id="@+id/submitscorecard"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#3061e5"
+                android:text="SUBMIT SCORECARD"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/newroundstart"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#33CC33"
+                android:text="REFRESH SCORECARD"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+  

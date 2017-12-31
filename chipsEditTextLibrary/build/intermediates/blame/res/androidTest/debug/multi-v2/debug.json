@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\chipsEditTextLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\chipsEditTextLibrary\\build\\intermediates\\bundles\\debug\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "199"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\chipsEditTextLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\chipsEditTextLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,114",
+                        "endLines": "2,5",
+                        "endColumns": "58,12",
+                        "endOffsets": "109,184"
+                    }
+                }
+            ]
+        }
+    ]
+}

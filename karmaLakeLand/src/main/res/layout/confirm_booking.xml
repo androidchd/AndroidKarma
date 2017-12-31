@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="130dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="#3061e5" >
+            <TextView
+                android:text="Booking Confirmed"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+                </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/cancellbooking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Congratulations! Your booking is confirmed?"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:src="@drawable/smile" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/ok"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonstyle4"
+                android:gravity="center"
+                android:text="OK"
+                android:textColor="#FFFFFF"
+
+                android:textSize="12sp" />
+
+            <!--   <Button
+                   android:id="@+id/cancel"
+
+                   android:layout_width="0dp"
+                   android:layout_height="30dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginRight="20dp"
+                   android:layout_weight="1"
+                   android:background="#B0B0B2"
+                   android:gravity="center"
+                   android:text="Cancel"
+                   android:textColor="#FFFFFF"
+
+                   android:textSize="12sp" />-->
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

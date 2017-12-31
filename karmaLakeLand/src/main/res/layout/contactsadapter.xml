@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#EFEFEF"
+    android:layout_height="match_parent" >
+    
+    
+     <ImageView
+         android:background="#FFFFFF"
+         android:id="@+id/favriot"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+     android:layout_marginTop="5dp"
+         android:layout_width="wrap_content"
+       
+         android:clickable="true"
+         android:src="@drawable/profilepic" />
+    <ImageButton
+        android:id="@+id/cross"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/cross"
+        
+      />
+        
+    <TextView 
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     android:layout_toRightOf="@+id/favriot"    
+        android:textSize="14sp"   
+        android:text="name"   
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold" />
+  
+  
+    
+    <TextView 
+        android:id="@+id/tv_details"
+         android:layout_toRightOf="@+id/favriot"  
+          android:layout_below="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="number"
+       android:textSize="14sp"   
+       android:layout_marginLeft="20dp"
+ 
+          />
+    
+      <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginTop="50dp"
+                            
+                            android:background="#3061e5" />
+    
+  
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

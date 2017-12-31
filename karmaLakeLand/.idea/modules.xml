@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../KarmaLakeLand.iml" filepath="$PROJECT_DIR$/../KarmaLakeLand.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../androidChipBubbleText/androidChipBubbleText.iml" filepath="$PROJECT_DIR$/../androidChipBubbleText/androidChipBubbleText.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../chipsEditTextLibrary/chipsEditTextLibrary.iml" filepath="$PROJECT_DIR$/../chipsEditTextLibrary/chipsEditTextLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../facebook/facebook.iml" filepath="$PROJECT_DIR$/../facebook/facebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karmaLakeLand.iml" filepath="$PROJECT_DIR$/karmaLakeLand.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../twoWayView/twoWayView.iml" filepath="$PROJECT_DIR$/../twoWayView/twoWayView.iml" />
+    </modules>
+  </component>
+</project>

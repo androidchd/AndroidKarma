@@ -1,0 +1,7 @@
+#Thu Nov 09 15:56:18 IST 2017
+base.0=F\:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f6df53cffde03a30dbca1ffc98e112b12e8877eb
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_01474d778b8be2f8f9943f7f3e6d9a5ae1247c69\\classes.dex
+base.1=F\:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_01474d778b8be2f8f9943f7f3e6d9a5ae1247c69
+file.0=F\:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f6df53cffde03a30dbca1ffc98e112b12e8877eb\\classes.dex

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\build\\intermediates\\res\\merged\\androidTest\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,119",
+                        "endLines": "2,5",
+                        "endColumns": "63,12",
+                        "endOffsets": "114,196"
+                    }
+                }
+            ]
+        }
+    ]
+}

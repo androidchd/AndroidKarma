@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+>
+
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+    
+    
+    
+    
+    
+  <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+        android:background="#FFFFFF"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+    
+<RelativeLayout
+                        android:id="@+id/linear_first"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:padding="10dp" >
+
+                        <ImageButton
+                             android:background="#FFFFFF"
+                            android:id="@+id/favriot"
+                            
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                           android:paddingRight="50dp"
+                            android:layout_width="90dp"
+                            android:layout_marginTop="5dp"
+                            android:clickable="true"
+                           
+                            android:src="@drawable/back_icon" />
+
+                        <TextView
+                            android:id="@+id/tv_header_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center_horizontal"
+                            android:text="Terms And Conditions"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+                        
+                        
+                    </RelativeLayout>
+       
+ <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:background="@android:color/darker_gray"/>      
+
+
+
+    </LinearLayout>    
+ 
+  
+  
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/tablel1"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+      >
+ 
+     <TextView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="16sp"
+       android:layout_marginLeft="10dp"
+       android:textStyle="bold"
+       android:layout_marginTop="5dp"
+       android:text="User Agreement"/> 
+       
+       
+       
+       
+       
+       
+    <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                
+                  android:layout_marginTop="10dp"
+                 
+                  android:text="This Agreement constitutes your agreement with Appcentra Technologies Pvt. Ltd. with respect to your use of the service. You must agree to abide by all of the terms and conditions contained in this Agreement in order to become or remain an authorized user of the Service. As used in this Agreement, we and us means Appcentra Technologies Pvt. Ltd. or any successor or assign of App Centra Technologies Pvt. Ltd."
+                  
+                ></TextView> 
+               
+   
+   
+
+    </LinearLayout> 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+       
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+      >
+   <TextView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="16sp"
+       android:layout_marginLeft="10dp"
+       android:textStyle="bold"
+        android:layout_marginTop="5dp"
+       android:text="Right to Use"/>
+   
+   
+   
+   <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                  android:text="Your right to use the service is subject to any limitations, conditions and restrictions established by us from time to time, in our sole discretion. We may alter, suspend or discontinue any aspect of the service at any time, including the availability of any service feature, database or content. We may also impose limits on certain features and aspects of the Service or restrict your access to parts or all of the service without notice or liability."
+                  
+                ></TextView> 
+              
+   
+   </LinearLayout>
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+       
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+      >
+   <TextView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="16sp"
+       android:layout_marginLeft="10dp"
+       android:textStyle="bold"
+        android:layout_marginTop="5dp"
+       android:text="Code of Conduct"/>
+   
+   
+    <TextView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="16sp"
+       android:layout_marginLeft="10dp"
+       android:textStyle="bold"
+        android:layout_marginTop="10dp"
+      
+       android:text="You agree to use the Service in accordance with the following Code of Conduct:"/>
+   
+  
+   
+   <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                   android:id="@+id/a"
+                  android:text="a"
+                /> 
+                
+                
+   
+
+
+    
+    <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                   android:id="@+id/b"
+                  android:layout_marginTop="10dp"
+                  
+                 android:text="b. you will not use the Service to engage in any form of harassment or offensive behavior, including but not limited to the posting of communications, pictures, videos or audio recordings which contain libelous, slanderous, abusive or defamatory statements, or racist, pornographic, obscene, or offensive language or images;"/> 
+
+    
+     <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                   android:id="@+id/c"
+                  android:layout_marginTop="10dp"
+                  
+                 android:text="c. you will not forward chain letters through the Service;"/>
+
+    
+     <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                   android:id="@+id/d"
+                 android:text="d. you will not use the Service to infringe the privacy rights, property rights, or any other rights of any person;"/>
+    
+    <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                 android:text=" i. violates, plagiarizes or infringes upon the rights of any third party, including but not limited to any copyright or trade-mark law, privacy or other personal or proprietary rights, including other intellectual property rights; or" 
+        />
+    <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                 android:text=" ii. is fraudulent, misleading or otherwise unlawful or violates any law;" 
+              
+   />
+    <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                   android:id="@+id/e"
+                 android:text=" e. you will not use the Service to distribute, promote or otherwise publish any material containing any solicitation for funds, advertising or solicitation for goods or services;" 
+              
+   />
+    <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                   android:id="@+id/f"
+                 android:text=" f. you will not use the Service to distribute or up load any virus, Trojan horses or do anything else that might cause harm to the service, Appcentra Technologies Pvt. Ltd. systems or to other members' systems in any way; and" 
+              
+   />
+   
+    <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                   android:id="@+id/g"
+                 android:text=" g. you will not post or transmit in any manner any contact information including, but not limited to, email addresses, instant messenger nicknames, telephone numbers, postal addresses, URLs, or full names through your publicly posted information." 
+              
+   />
+   </LinearLayout>  
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+       
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+      >
+   <TextView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="16sp"
+       android:layout_marginLeft="10dp"
+       android:textStyle="bold"
+        android:layout_marginTop="5dp"
+       android:text="Advertising"/>
+   
+   
+   
+   <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                  android:text="You agree to grant Appcentra Technologies Pvt. Ltd. a license for the right to use your information ,images, text or recordings on our partners' sites or in the marketing of the Service."
+                  
+                ></TextView> 
+              
+   
+   </LinearLayout>
+    
+      <LinearLayout
+        android:layout_width="match_parent"
+       
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+      >
+   <TextView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="16sp"
+       android:layout_marginLeft="10dp"
+       android:textStyle="bold"
+        android:layout_marginTop="5dp"
+       android:text="Assignment"/>
+   
+   
+   
+   <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                  android:text="You do not have the right to assign this Agreement or any of your rights to the service to anyone. Appcentra Technologies Pvt. Ltd. has the right to assign any or all of its rights and duties under this Agreement or to the service to any third party. At the election of Appcentra Technologies Pvt. Ltd., if Appcentra Technologies Pvt. Ltd.'s obligations hereunder are assumed by a third party, Appcentra Technologies Pvt. Ltd. shall be relieved of any and all liability under this Agreement."
+                  
+                ></TextView> 
+              
+   
+   </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+       
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+      >
+   <TextView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="16sp"
+       android:layout_marginLeft="10dp"
+       android:textStyle="bold"
+        android:layout_marginTop="5dp"
+       android:text="About us"/>
+   
+   
+   
+   <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                  android:text="•	Appcentra Technologies Pvt Ltd.\n171 D, DDA FLATS, Motia khan, New Delhi\nEmail: AppCentra@gmail.com"
+                                    
+                ></TextView> 
+              
+   
+   </LinearLayout> 
+   
+     
+      <LinearLayout
+        android:layout_width="match_parent"
+       
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+      >
+   <TextView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="16sp"
+       android:layout_marginLeft="10dp"
+       android:textStyle="bold"
+        android:layout_marginTop="5dp"
+       
+       android:text="Payment"/>
+   
+   
+   
+   <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                  android:text="•  Payment can be made online by Netbanking/Wallet/Mobile Payments or credit/debit cards from Visa, MasterCard or Amex. No charges will be made to your credit card, until your reservations are all confirmed."
+                                    
+                ></TextView> 
+      <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                  android:text="•  Appcentra Technologies Pvt. Ltd. will send you a confirmation of your order via email. Your order confirmation email is your proof of purchase, so we recommend you print this and keep it safe."
+                                    
+                ></TextView>  
+                
+      
+        <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                  android:text="•  The data collected through the registration is meant for Appcentra Technologies Pvt. Ltd. use only, and it is fully protected by privacy policy. Credit /Debit card data is not stored any longer than necessary to process your reservation."
+                                    
+                ></TextView> 
+              
+   
+   </LinearLayout> 
+    <LinearLayout
+        android:layout_width="match_parent"
+       
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+      >
+   <TextView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="16sp"
+       android:layout_marginLeft="10dp"
+       android:textStyle="bold"
+       android:layout_marginTop="5dp"
+       
+       android:text="Refunds Policy"/>
+   
+   
+   
+   <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                  android:text="• If your fees have been paid with a credit /Debit card/Net banking/Wallet /Mobile Payments and you are eligible to receive refund, you will receive a refund back approximately within 15 working days once the cancellation is confirmed. Once a refund has been processed, you will receive a notification of the refund to the email address you provided at the time of your registration."
+                                    
+                ></TextView> 
+      <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                  android:text="• If your fees have been paid with a method other than a credit card (bank transfer, money order, etc.), and you are eligible to receive a refund, it takes approximately 30 working days for a refund to be issued once the cancellation is confirmed. Once the process has been completed, you will receive a notification of the refund to the email address you provided at the time of your registration."
+                                    
+                ></TextView>  
+                 
+</LinearLayout>
+
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+       
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+      >
+   <TextView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="16sp"
+       android:layout_marginLeft="10dp"
+       android:textStyle="bold"
+       android:layout_marginTop="5dp"
+        android:text="@string/changes"
+       />
+   
+   
+   
+   <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                  android:text="• For 'no shows' 100% loss of money paid."
+                                    
+                ></TextView> 
+      <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                 android:text="•  If more than 24 hrs before play, a full refund will be made less Rs.150 admin fee charge will be made."
+                                    
+                ></TextView>  
+                
+      
+      <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                 android:text="• If the course is closed due to any unavoidable reasons, you will need to get a confirmation from the golf course when you are at the club house to confirm that they will not charge for your round."
+                                    
+                ></TextView>  
+      
+      
+      
+</LinearLayout>
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+       
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+      >
+   <TextView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="16sp"
+       android:layout_marginLeft="10dp"
+       android:textStyle="bold"
+       
+       android:layout_marginTop="5dp"
+       android:text="Not Liable For"/>
+   
+   
+   
+   <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                  android:text="• Slow play at any golf course."
+                                    
+                ></TextView> 
+      <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                 android:text="• Golf played on temporary greens and tees if we have not previously been informed of these works. Any trolley or buggy bans in force when a course makes a decision due to certain weather conditions."
+                                    
+                ></TextView>  
+                
+      
+     
+      
+      
+      
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+       
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+      >
+   <TextView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="16sp"
+       android:layout_marginLeft="10dp"
+       android:textStyle="bold"
+       android:layout_marginTop="5dp"
+      android:text="@string/content"
+  />
+   
+   
+   
+   <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                  android:text="• We reserve the right to display, alter, amend or delete any of the information, advertisements or contents that appear on our website/Mobile Application at any time. The users have no right to make any claim against us in this respect."
+                                    
+                ></TextView> 
+    
+                
+      
+     
+      
+      
+      
+</LinearLayout>
+    
+    
+        <LinearLayout
+        android:layout_width="match_parent"
+       
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_height="0dp"
+        android:paddingBottom="10dp"
+        android:layout_weight="40"
+       
+      >
+   <TextView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="16sp"
+       android:layout_marginLeft="10dp"
+       android:textStyle="bold"
+       android:layout_marginTop="5dp"
+       android:text="Events beyond Our Control"
+       
+      />
+   
+   
+   
+   <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                  android:text="We shall have no liability to you for any failure to deliver the golf rounds to you or any delay in doing so that is caused by any event or circumstance beyond our reasonable control including, without limitation:"
+                                    
+                ></TextView> 
+                
+   
+   <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                  android:text="•	Strikes, lock-outs or other industrial action;"
+                                    
+                ></TextView> 
+   
+   
+      <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                  android:text="•	Civil commotion, riot, invasion, terrorist attack or threat of terrorist attack, war (whether declared or not) or threat of or preparation for war;"
+                                    
+                ></TextView> 
+                   <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                android:text="•	Fire, explosion, bad weather conditions, storm, flood, earthquake, subsidence, epidemic or other natural or nuclear disaster;"
+                                    
+                ></TextView> 
+                   <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                  android:text="•	Impossibility of the use of railways, shipping, aircraft, motor transport or other means of public or private transport;"
+                                    
+                ></TextView> 
+                   <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                  android:text="•	Impossibility of the use of public or private telecommunications networks;"
+                                    
+                ></TextView> 
+                   <TextView 
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:textSize="14sp"
+                  android:layout_marginTop="10dp"
+                  
+                android:text="•	The acts decrees, legislation, regulations or restrictions of any government.\nIf you require assistance our reservation staff can be contacted at the following email address: AppCentra@gmail.coms
+                "
+                                    
+                ></TextView> 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
+                
+      
+     
+      
+      
+      
+</LinearLayout>
+    
+    
+    
+    
+</LinearLayout>
+
+
+
+
+</ScrollView>

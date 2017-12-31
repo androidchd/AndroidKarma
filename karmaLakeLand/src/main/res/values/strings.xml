@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<string name="first_rule">&lt;b>1.&lt;/b> All players must sign in at Registration Desk at the Pro Shop. </string>
+    <string name="second_rule">&lt;b>2.&lt;/b> Only golf shoes or smooth sole shoes are allowed on the course.</string>
+    <string name="third_rule">&lt;b>3.&lt;/b><small> Proper golf attire is to be worn during play.</small></string>
+    <string name="fourth_rule">&lt;b>4.&lt;/b><small> Please repair all foot marks, rake sand bunkers and fill divots.</small></string>
+    <string name="fifith_rule">&lt;b>5.&lt;/b><small> Golf carts to be driven on cart paths only.</small></string>
+    <string name="sixth_rule">&lt;b>6.&lt;/b><small> Outside food and beverages are prohibited.</small></string>
+-->
+    <string name="totalgreenandtaxes">Total Green Fee &amp; Taxes</string>
+    <string name="invite">Hi. I would like to invite you for Using Karma Golf app for your golfing round. Download and Register today</string>
+    <string name="invite_two">Use Referral Code -</string>
+
+    <string name="app_name">Karma Lakelands</string>
+    <string name="action_settings">Settings</string>
+    <string name="changes">Changes &amp; Cancellations</string>
+    <string name="content">Content &amp; Advertisements</string>
+    <string name="mystring"><b>a.</b></string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="facebook_app_id">1068514146565266</string>
+    <string name="fb_login_protocol_scheme">1068514146565266</string>
+    <string name="stylish_text">
+        <b>Congratulations!Your scorecard has been submitted successfully.</b> 
+    </string>
+
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Find People</item>
+        <item>Photos</item>
+        <item>Communities</item>
+        <item>Pages</item>
+        <item>What\'s Hot</item>
+    </string-array>
+
+    <integer-array name="flags">
+        <item>@drawable/profilepic</item>
+        <item>@drawable/profilepic</item>
+        <item>@drawable/profilepic</item>
+        <item>@drawable/profilepic</item>
+        <item>@drawable/profilepic</item>
+        <item>@drawable/profilepic</item>
+        <item>@drawable/profilepic</item>
+        <item>@drawable/profilepic</item>
+        <item>@drawable/profilepic</item>
+        <item>@drawable/profilepic</item>
+        <item>@drawable/profilepic</item>
+        <item>@drawable/profilepic</item>
+        <item>@drawable/profilepic</item>
+        <item>@drawable/profilepic</item>
+        <item>@drawable/profilepic</item>
+    </integer-array>
+
+
+    <style name="TwoWayView">
+        <item name="android:orientation">horizontal</item>
+
+    </style>
+
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="cancel" />
+    <string name="GPSAlertDialogMessage" />
+    <string name="GPSAlertDialogTitle" />
+    <string name="gps_network_not_enabled" />
+    <string name="open_location_settings" />
+    <string name="Cancel" />
+</resources>

@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/linear_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="11dp">
+
+            <ImageButton
+                android:id="@+id/favriot"
+                android:layout_width="90dp"
+
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:clickable="true"
+                android:paddingRight="50dp"
+
+                android:src="@drawable/back_icon" />
+
+            <TextView
+                android:id="@+id/tv_header_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:text="Review Booking"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.4"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="40dp"
+                    android:src="@drawable/clander_icon" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Date"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="5dp"
+                        android:text="--/--/----"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center|center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/darker_gray"
+                    android:paddingLeft="4dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.4"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/time_icon" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+
+                        android:layout_marginTop="20dp"
+                        android:text="Time"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="4dp"
+                        android:text="00:00"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.4"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/golf_playe" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="30dp"
+                        android:singleLine="true"
+                        android:text="No.of players"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/players"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="2dp"
+                        android:text="0"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center|center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/darker_gray"
+                    android:paddingLeft="4dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.4"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/flag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="6dp"
+                    android:src="@drawable/flag" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/buckets"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="30dp"
+                        android:singleLine="true"
+                        android:text="No.of Hole"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/holes"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="2dp"
+                        android:text=""
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Green Fee Breakup"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+
+        android:orientation="vertical">
+
+        <RelativeLayout
+
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Green Fee - Member"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/greenfee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Rs 0"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+
+                android:background="@android:color/darker_gray" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+
+        android:orientation="vertical">
+
+        <RelativeLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Green Fee - Non Member"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/greenfeenonmember"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Rs 0"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+
+                android:background="@android:color/darker_gray" />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <RelativeLayout
+
+            android:id="@+id/RelativeLayout05"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Twilight Discount"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_twilight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Rs 0"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+
+                android:background="@android:color/darker_gray" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <RelativeLayout
+
+            android:id="@+id/RelativeLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="No of Players"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/playersnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:text="0"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+
+                android:background="@android:color/darker_gray" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Total Green Fee"
+
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/totalgreenfee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Rs 0"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+
+                android:background="@android:color/darker_gray" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Taxes and Fees"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/taxesfees"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Rs 0"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+
+                android:background="@android:color/darker_gray" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Total"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Rs 0"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+
+                android:background="@android:color/darker_gray" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/continuebooking"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="#3061e5"
+            android:text="CONTINUE BOOKING"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/footer" />
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\99da7601983fbe5c9f678cb4c5aff9919d92ba5e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6ab00d32184bdb8c9e7ad2ba632a43361d0b4293\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\5082452bc149d8cd99d1ad1b416332b9b4f05c73\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_ff514582a2d8060604689166358e9bf334b963b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f6df53cffde03a30dbca1ffc98e112b12e8877eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.22.0\d441fc58329c4a4c067acec04ac361627f66ecc8\google-http-client-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d441fc58329c4a4c067acec04ac361627f66ecc8">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-1.22.0_f4cff34f3b221b4180fd8abc8615209fa860d79d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3e14ee35f2e61f7a513ea365265e77c427fcdd22">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_01474d778b8be2f8f9943f7f3e6d9a5ae1247c69\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\e14403904508e8c70ac7675b879942d9c3808a4a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_506a2fc495c80c0a066a2f97cc8b83ba2ca7b2bf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\58bb89cadbfa8c7f5d58bbb3fca290fc4c680742\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_280a51bbb704a3c0107eed5e28fb6eff04f13304\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\89ee31d4d291b83fd0e9d5d3a76daab820725563\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9d2563c29f9433276079b15bf675028f72c44fc9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\b97706881f2a65654323e62bae2db8fec2d82e40\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a542cbefac5bbd6dfc7a2202b1bbe8697cf826e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\7d84f6ba73b474454b7f9c6c35e3ff165bf47046\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9b77091a7ac174caa1a88d0520a735cae71579d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\69630fe33303eff62475b2b5dcd50fc7a184b341\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_35cbc4890e96b2a4e848cc500e92c48d04489828\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\6fb9a30741d852d6158f4d8444823f12a6d2fc6f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a98a936ffd24b82b5e03705f5c74c25ec5c1d46e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\34100ed02955f0d7d4685b9b0e85a1044ba79272\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4ca54462c396685ba2e9efde1289ca63fa8d0d09\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\6fb9a30741d852d6158f4d8444823f12a6d2fc6f\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_b96b532cad3b235358bd2e63b08470b7c2b4af17\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\17.0\463f8378feba44df7ba7cd9272d01837dad62b36\guava-jdk5-17.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="463f8378feba44df7ba7cd9272d01837dad62b36">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\guava-jdk5-17.0_55f82984ca0ab33ed7bbbae9cbe8ab5be48ce6d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\a25c679bbe0178144976ee90b427215045fda833\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="384a601bf7671716768cc8586f39816a08ce74c3">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d37f947e47f7009f4bff4b52957f54718e953096\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\2105726a10193409e5aab3967510add507bf6e4c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8273a19cd40f45269aac6ba966043b7358e5f440\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_b8a8c12138681bdc88b1e00ccfd1c2bdcbf83266\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.22.0\244350c0c845c583717ade13f5666a452fd0cfa\google-api-client-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0244350c0c845c583717ade13f5666a452fd0cfa">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\google-api-client-1.22.0_0341c6fb5809e51e363c6310627acb5f6ea59e71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\bf19c7a9d2fad375b17c14013788298e4f9e6983\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c6c69dff8c009168c4d4bca8177051d67d34e61f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\08c9b7a58f17fe6d03a9b8541764292fa836e8ff\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_651facc794a24596d8f886197c0464cd0a1b4492\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\035bf32d639271b3eb20329e67cc23378998978e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_38a0f258c209cc5bc85daa665abe1527677676ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.22.0\cc014d64ae11117e159d334c99d9c246d9b36f44\google-http-client-jackson2-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cc014d64ae11117e159d334c99d9c246d9b36f44">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-jackson2-1.22.0_8cd3999d4781e99679c5d51792cfce4fc228776a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_42f561e0d6f704a09a03319862fafa891afa8195\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\66a66da4c4a631ae0c574294444ff9df8b6e2798\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_169e87b4f83a505d1d424c052ce42fa400a7879e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\077d7c6a6881f762982ea1e91bfd220674fc1be4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2f84c4841a80d3f5904792e93b8abc0e86c2f548\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\eff6326e8c98c114b1ee3618d8ceef2820146feb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_870e356445bff339e9d58ee94e2fab8e9853c3e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\afdcf1f75d8a7c71cd21f805a37eb674d138019b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3bb88ae52a4fd3d6b8150149b5adb3258c212d69\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\8f7865693706e6ac2bef48fa78ac0de3b766a04b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a440ee85004e8a19b8320f8843904ae06453bb9c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\6a48886fd1bca6ad7786dac63963f012c286add4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ef4831ab56628a7fb7268901b91b91d7b07f88f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\b07f942fcf017780479b4052988e45779670acaf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_97dd23c55f6ffcaf2d94e4c2ba322e97dd82ccdb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\c750c94023fc83ec731ca054011d4158c1d91515\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bd6479b6179abd2b6dd9cbbac61f56bac220175f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\0f3366f9cdc63894a8b7892b63859037b8169a1a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_87a0c531fc0875103159577fde4d0c491f6db639\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_893b37e44d66835e3cc701f637a15740bfab8648\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\0fb2da39f0b6a7e6179e8f3fc3b36dd714f93bec\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1eaab80bb5cb5f3e3d0f31622d2c3914fc38fa77\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_b3e7bb1fa9d41f9e75b1ed5fc12d810ca5714f04\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_513689b2906175d5521db7965739edf1229b2d68\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\5082452bc149d8cd99d1ad1b416332b9b4f05c73\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a7bc1714643c003f5319029e041ef1a064f39811\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\7f73b4800235616193199dbacc71c1c1fd1c7577\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c1c350c31bf4b0997c223cd5526f2d2cf24d5ecc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\98e17c51cf679974bd0537be871b3d26cdeaa74a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_034fbbd4b92b6a10b861ee67eb6ef8dd26d4e3e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\600607c3f647fe157759fd257dd8c9a567d4b53f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d450d38471e961f53e42c064a9fe74e71e24e145\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\d48068fd5024a2fb0a6d7dad2c58030744db4b25\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_98f8ab2391a14a970230a37b7aa7e69a244ed0a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\c475842b32620a5f1ab46ebdf036924d36e5b4ca\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_03a54cef9dba2101d66638ec82f7788b70a55e79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\909a4101a129d7f6e4e2699fc47bf7bf01aff457\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1c51706b7aacac1eb93f268ba7ab9be8880d58d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\2ce7021110509c2337c83851c04585644eb45f40\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2267c994b964bea10c4d158a20cb17812fabe123\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\PGSDK_v1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="957d299c4769678a84ac41b5a05c970511bf5254">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\2\PGSDK_v1.0_e04191f996859c04411669df53b2ca2586f90a02\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\6356fc01b1fb6878f33fa9309c96e764242c1e86\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9ca84bfa8ac46fcd0d5a0efe3da16ae9604d04fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\3f24339b5f6c5847584eec3a795aa504ae31cf10\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8ef7689c95fd3951b7a2927ee441afed295c64c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\76930e0f2794c42d159f72de806a55df50fa3b34\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6b3aea81bbb9128b30c93b297ee163f2cb5d0fcc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\03c3b180af38d137ceb0b8911e84ed5a0abfac3c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fe7708aa615a84dcfaba5b0695fc6bd1c35568bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\3118317ef155d29ce228fa73540ef6865b38f320\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2b7f000d81d803b5125ef1b81b31087448c3d73e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\45a39df915060bb53f37fe28d53526ab633af275\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_104d7c1489f913ddef867bd75e61e0c57d34923b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\62c71cf42df685e48e7a9c8788cfdd6b4dfaaef1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bb5341a2abea4e2fe5b308587197f7625389ae0f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\3f8cd0eb3eb300a90bd29f0ed5ddb0daf7ce9796\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9630b7172116071f8a4b964980d9d1dd580daff0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\42138513f236f21c68dc8f22c3ebdaafcddeae89\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3e7679974beae01fdbb148cbcc35286e3b683b16\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\0a9d837eeb60db69df8590353e6d59a0f79fee16\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b02db5756df164941afd132d3de0fd4d2390049a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\54dc05c835b7591efcb460d612246f040cf2bf2c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0484bc06b328c3db414ae652c72941005b36c611\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\commons-io\commons-io\2.4\commons-io-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\commons-io-2.4_b2955a73e8fdec69863902c786dced8321b28c5c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\d4f20369b0758a7421192854b62b332d12ab9a3e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d97c6d0f36c25d50affab07ffbf56c746cf122f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.1.3_5b70be21202e979603bb3c41bea97e9985042c89\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient-android\4.3.5.1\eecbb0b998e77629862a13d957d552b3be58fc4e\httpclient-android-4.3.5.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eecbb0b998e77629862a13d957d552b3be58fc4e">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\httpclient-android-4.3.5.1_039748b7e75b5a71dadc0c06257359ed8970b77b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\7ceb3a5dc31c15c94e6f52b226dc39f9124a8947\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b7cb87101c1e1e9005d14fc6329a384c982fe735\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\8f10dd06f46c1e3e53c467467fd92bcb2c0f4f71\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e29f89d8f56b097d8e0c80add8a61881d5c3bfda\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\141b9448da9b457b0f217f660e4654c63146a6a4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c45e8e8952e834c662973c3f63f7ba09b33b5b7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\ebe54049ad440ec34d8d0838e217af1ba49af316\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_276c97a5f430a8f7e2a412ae9e911fd445e6f2ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\94b3a0cf1886c63c871b680accd96b991db73d79\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_266b569705a46319999c2056d4cea062673566d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\eb399cf6b8269f74c060deb64094e7c23d13b60b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c56bca49cf00b681b0b07074a8ef51f3e46a130e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\150ac6acd748df93886d960b3f1a3478f0fc2a22\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1590cf40d85199d3ff3c7c6f8c18183575cdf635\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\da9bfcf4f31c9728d8996bade3c28136b5f39b88\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fa731bd803c8797e472ff355ce1ae0dcf38d71b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\06ada2e0ff5280b4c4400d1c9f2f12423bae6d0f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_29c4ee6a2a5d6a1141ba8b9921a3f4bd405da57f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\8fdaff003d63d8208cad9851e426a5af2c1df3ad\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0302a997772aff0502859929813bf7b0f21204dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\f184b3d27156ed4d746ade16c5969d1c6c4d6cac\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3bc921a19e934e65f9288b862a0df60bdb4306dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\22ff25af3a953fb46ac615525eec59b5e54ed3ce\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d600f13fba33d61880e144e76405551be5c26cf0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\1a276f2d8f4b5239f56f8588d624f7524db5eaa1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_646f1280038f57b2295973305474d980bd716b3a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\15079b6439aac5f709ef88a5676b03b3dd95647d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d4d88aabcf8b8bfbf99bcb54fc5cf03d34f5fc23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_97d864a92d2b668dc6ffc8eb128c0f527dacbd35\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\jsr305-1.3.9_bc31769bb52b0f9053bafeffdccb8eb5d9824f8d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\f1b0847944eef64600145f82c8f4a74b09126440\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4f9aec843aba805fa04c06cb629d920bd717aac3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.22.0\1d63f369ac78e4838a3197147012026e791008cb\google-oauth-client-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1d63f369ac78e4838a3197147012026e791008cb">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\google-oauth-client-1.22.0_761a73a156944618255ac8353525aca3bd9f38b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.4.1_186d6c9c27641cb9eb9da21fc2efe657fcc87ffa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\a7351efc2a96602770a08219f4debfda77ea5c4d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_34ecf2ee72b6b9b2a8ee1b17a5bd42fff4072b4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\cf2dd7a8e2fb5e6a893851aece5367829c1a7d54\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_84eba25bb7e32f0bbfb7f519152bc72a8d53c2c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.gradle\caches\modules-2\files-2.1\com.google.apis\google-api-services-gmail\v1-rev50-1.22.0\679ed8fd6b58acb870b849d57fe1a3d1e9660105\google-api-services-gmail-v1-rev50-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="679ed8fd6b58acb870b849d57fe1a3d1e9660105">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\google-api-services-gmail-v1-rev50-1.22.0_0df3977e9a84385e7b9b3c844a3ede2f425870c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\4ab7f0f8d47125b0b271eab3827d8c3bea930819\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_279015f5f8070d7c00648407b2439a8b87652325\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\.android\build-cache\2898ca33d47cd023b499e190bdab923ad4a33e35\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="F:\gurpreet\Gurpreet Space\KarmaLakeLand\karmaLakeLand\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fa54573b1f7b19c3119cdf2c4877a775823ba964\classes.dex" />
+    </item>
+
+</items>

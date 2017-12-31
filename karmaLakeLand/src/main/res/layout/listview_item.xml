@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="9">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight=".8"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/timeicon"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/time_icon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.2"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="time"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.2"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/hole"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="hole"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight=".8"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/playersicon"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/golf_playe" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.2"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/players"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+
+                    android:text="players"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight=".8"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/dateicon"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/clander_icon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.4"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="Date"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/arrow_icon" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+</LinearLayout>

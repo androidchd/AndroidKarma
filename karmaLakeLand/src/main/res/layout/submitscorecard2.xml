@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/linear_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="10dp">
+
+            <ImageButton
+                android:id="@+id/favriot"
+                android:layout_width="90dp"
+
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:clickable="true"
+                android:paddingRight="50dp"
+
+                android:src="@drawable/back_icon" />
+
+            <TextView
+                android:id="@+id/tv_header_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:text="Submit Scorecard"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/darker_gray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/congratulations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Congratulations !  Your scorecard has been submitted successfully. "
+            android:textColor="#3061e5"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/ll_screen_short"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:orientation="vertical"
+        android:background="@drawable/watermark_logo"
+        android:weightSum="20">
+
+        <TableLayout
+            android:id="@+id/tablelayout1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="16"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+
+            <TextView
+                android:id="@+id/scorecardhighlights"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Scorecards Highlights"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:id="@+id/tablewrow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:text="Total Number of Strokes"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/score"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:textSize="10sp" />
+
+
+            </TableRow>
+
+            <!-- <TableRow
+                   android:id="@+id/tablewrow3"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                    android:weightSum=""
+                    android:background="#FFFFFF"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="20dp"
+                 >
+                 <TextView
+                     android:layout_weight="1"
+                     android:background="@drawable/button"
+                     android:text="Net Score"
+                     android:layout_height="20dp"
+                     android:paddingLeft="10dp"
+                     android:paddingTop="5dp"
+                     android:textSize="10sp" />
+
+                 <TextView
+                     android:layout_weight="1"
+                     android:background="@drawable/button"
+                     android:text=""
+                     android:id="@+id/netscore"
+                      android:paddingLeft="10dp"
+                     android:paddingTop="5dp"
+                     android:layout_height="20dp"
+                     android:textSize="10sp" />
+                   </TableRow>
+        -->
+            <TableRow
+            android:id="@+id/tablewrow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:text="Total Number of Putts"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/totalnumberofputs"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+
+                android:textSize="10sp" />
+        </TableRow>
+
+            <TableRow
+                android:id="@+id/tablewrow5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:text="Eagle"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/eagle"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tablewrow6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:text="Birdies"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/birdies"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tablewrow7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:text="Par"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/par"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:textSize="10sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tablewrow8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:text="Bogey"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/bogey"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tablewrow9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:text="Double Bogey"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/doublebogey"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tablewrow10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:text="Gross score"
+                    android:textColor="#3061e5"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_grossScore"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:textColor="#3061e5"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+        </TableLayout>
+
+       <!-- <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/karma_logo" />
+
+        </LinearLayout>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/sharescorecard"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="#3061e5"
+            android:text="SHARE MY SCORECARD"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+
+        <Button
+            android:id="@+id/skip"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+
+            android:background="#33CC33"
+            android:text="SKIP AND CONTINUE"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="10"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <ImageView
+                android:id="@+id/whats_app"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/watsapp" />
+
+            <ImageView
+                android:id="@+id/google_ic"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/gmail_icon" />
+
+            <ImageView
+                android:id="@+id/facebook_ic"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/facebook_icon" />
+
+            <ImageView
+                android:id="@+id/twitter_ic"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/twitter_icon" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

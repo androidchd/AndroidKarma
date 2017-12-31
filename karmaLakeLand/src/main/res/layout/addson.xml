@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/linear_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="10dp">
+
+            <ImageButton
+                android:id="@+id/favriot"
+                android:layout_width="90dp"
+
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:clickable="true"
+                android:paddingRight="50dp"
+
+                android:src="@drawable/back_icon" />
+
+            <TextView
+                android:id="@+id/tv_header_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:text="Add Ons"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="28"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="50"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Add Cart"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/carthole9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+
+                    android:layout_marginTop="2dp"
+                    android:layout_toLeftOf="@+id/carthole18"
+                    android:background="@color/pressed_color"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:text="Rs.600 (9 Hole)"
+                    android:textColor="#FFFFFF"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/carthole18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/buttonstyle"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Rs.1000 (18 Hole)"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/spin1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/cartprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="1dp"
+                    android:text="0"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/spinner1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/drop_down" />
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:layout_above="@+id/spinner1"
+                    android:text="9 HOLES" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="1dp"
+                android:background="@android:color/darker_gray" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="50"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Add Caddie"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/caddiehole9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toLeftOf="@+id/caddiehole18"
+                    android:background="@color/pressed_color"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:text="Rs.300 (9 Hole)"
+                    android:textColor="#FFFFFF"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/caddiehole18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/buttonstyle"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Rs.600  (18 Hole)"
+
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/spin2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/caddiefee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="1dp"
+                    android:text="0"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/spinner2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="5dp"
+
+                    android:background="@drawable/drop_down" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="1dp"
+                android:background="@android:color/darker_gray" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sliding"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="58"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Adapter.Sliding
+                android:id="@+id/sliding1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:gravity="left"
+                android:orientation="vertical"
+                android:padding="1px">
+
+                <LinearLayout
+                    android:id="@+id/check_btt_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonstyle"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:src="@drawable/circleimage" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="5dp"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/check1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonstyle"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:src="@drawable/circleimage" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="5dp"
+                        android:text="1"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/check2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonstyle"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:src="@drawable/circleimage" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="5dp"
+                        android:text="2"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/check3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonstyle"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:src="@drawable/circleimage" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="5dp"
+                        android:text="3"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/check4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonstyle"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:src="@drawable/circleimage" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="5dp"
+                        android:text="4"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </Adapter.Sliding>
+        </ScrollView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/totalamountlayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:text="Total Amount"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/greenfeelayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <RelativeLayout
+
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/totalgreenandtaxes"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/greenfee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Rs 3900"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="3dp"
+
+                android:background="@android:color/darker_gray" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/caddiefeelayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <RelativeLayout
+
+            android:id="@+id/RelativeLayout00"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Caddie Fee "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/totalcaddiefee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Rs.0"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="3dp"
+                android:background="@android:color/darker_gray" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cartfeelayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <RelativeLayout
+
+            android:id="@+id/RelativeLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Cart Fee"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/totalcartfee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Rs.0"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="3dp"
+                android:background="@android:color/darker_gray" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/couponCodeayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <RelativeLayout
+
+            android:id="@+id/discount"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Coupon Discount"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/total_discount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Rs.0"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="3dp"
+                android:background="@android:color/darker_gray" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/totalfeelayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <RelativeLayout
+
+            android:id="@+id/RelativeLayout03"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Total"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Rs.4500"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="30dp"
+
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="3dp"
+                android:background="@android:color/darker_gray" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/couponlayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="8"
+        android:background="#B0B0B2"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/coupontext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/namcardlayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/couponcode"
+                style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="110dp"
+                android:layout_marginTop="10dp"
+                android:background="#00000000"
+                android:hint="Coupon code"
+                android:inputType="text"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textColor="#424242"
+                android:textSize="14sp">
+
+            </EditText>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginTop="3dp"
+                android:background="@android:color/darker_gray" />
+
+            <Button
+                android:id="@+id/checksavings"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="28dp"
+                android:background="#3061e5"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Check Savings"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <!--<LinearLayout
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:background="#B0B0B2"
+                   android:id="@+id/couponlayout"
+                   android:visibility="gone"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="20dp"
+                   android:layout_weight="8">
+           <TextView
+               android:id="@+id/coupontext"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:lines="2"
+               android:text="Congratulations Rs 350 has beea applied to your booking account"/>
+
+
+
+
+
+             </LinearLayout> -->
+    <LinearLayout
+        android:id="@+id/continuebookinglayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/addscontinuebooking"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="#3061e5"
+            android:text="pay securely"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/footerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/footer" />
+    </LinearLayout>
+</LinearLayout>

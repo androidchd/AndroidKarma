@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/linear_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="10dp">
+
+            <ImageButton
+                android:id="@+id/favriot"
+                android:layout_width="90dp"
+
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:clickable="true"
+                android:paddingRight="50dp"
+
+                android:src="@drawable/back_icon" />
+
+            <TextView
+                android:id="@+id/tv_header_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:text=" Edit Profile"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Name" />
+
+        <EditText
+            android:id="@+id/Name"
+            style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#00000000"
+            android:hint="name "
+            android:inputType="text"
+            android:padding="5dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="#424242"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Mobile No." />
+
+        <EditText
+            android:id="@+id/edMobileno"
+            style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#00000000"
+            android:hint="+91 "
+            android:inputType="text"
+            android:padding="5dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="#424242"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Email ID" />
+
+
+        <EditText
+            android:id="@+id/emailid"
+            style="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#00000000"
+            android:hint="test@gmail.com"
+            android:inputType="text"
+            android:padding="5dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="#424242"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="50dp"
+            android:background="#3061e5"
+            android:text="UPDATE"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

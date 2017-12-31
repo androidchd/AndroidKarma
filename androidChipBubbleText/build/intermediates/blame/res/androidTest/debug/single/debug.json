@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_ic_launcher.png.flat",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_textview_background_all_corners_round.xml.flat",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\build\\intermediates\\bundles\\debug\\res\\drawable\\textview_background_all_corners_round.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_ic_launcher.png.flat",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ic_launcher.png.flat",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_textview_background_left_corners_round.xml.flat",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\build\\intermediates\\bundles\\debug\\res\\drawable\\textview_background_left_corners_round.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_textview_background_right_corners_round.xml.flat",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\build\\intermediates\\bundles\\debug\\res\\drawable\\textview_background_right_corners_round.xml"
+    }
+]

@@ -1,0 +1,610 @@
+[
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
+        "source": "C:\\Android\\.android\\build-cache\\a25c679bbe0178144976ee90b427215045fda833\\output\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_pause.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_notification_pause.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_mute.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_mini_controller_mute.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_mini_controller_gradient_light.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_mini_controller_gradient_light.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Android\\.android\\build-cache\\d48068fd5024a2fb0a6d7dad2c58030744db4b25\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Android\\.android\\build-cache\\d48068fd5024a2fb0a6d7dad2c58030744db4b25\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
+        "source": "C:\\Android\\.android\\build-cache\\a25c679bbe0178144976ee90b427215045fda833\\output\\res\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward30.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_notification_forward30.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_dark.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6fb9a30741d852d6158f4d8444823f12a6d2fc6f\\output\\res\\drawable\\mr_ic_pause_dark.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_closed_caption.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_expanded_controller_closed_caption.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_skip_ad_label_border.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_skip_ad_label_border.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_cancel_background.xml",
+        "source": "C:\\Android\\.android\\build-cache\\a25c679bbe0178144976ee90b427215045fda833\\output\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_dark.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6fb9a30741d852d6158f4d8444823f12a6d2fc6f\\output\\res\\drawable\\mr_ic_media_route_mono_dark.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_pause_large.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_mini_controller_pause_large.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "C:\\Android\\.android\\build-cache\\a25c679bbe0178144976ee90b427215045fda833\\output\\res\\drawable\\messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_forward30.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_mini_controller_forward30.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\watermark_logo.png",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\watermark_logo.png"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
+        "source": "C:\\Android\\.android\\build-cache\\a25c679bbe0178144976ee90b427215045fda833\\output\\res\\drawable\\com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_on_dark.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6fb9a30741d852d6158f4d8444823f12a6d2fc6f\\output\\res\\drawable\\mr_ic_media_route_on_dark.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\buttonstyle3.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\buttonstyle3.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\textview_background_left_corners_round.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\build\\intermediates\\bundles\\default\\res\\drawable\\textview_background_left_corners_round.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\counter_bg.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\counter_bg.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_play.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_mini_controller_play.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Android\\.android\\build-cache\\d48068fd5024a2fb0a6d7dad2c58030744db4b25\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\chips_edittext_gb.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\chipsEditTextLibrary\\build\\intermediates\\bundles\\default\\res\\drawable\\chips_edittext_gb.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_stop_live_stream.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_notification_stop_live_stream.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_actionbar_bg_gradient_light.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_expanded_controller_actionbar_bg_gradient_light.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_send_button_icon.xml",
+        "source": "C:\\Android\\.android\\build-cache\\a25c679bbe0178144976ee90b427215045fda833\\output\\res\\drawable\\com_facebook_send_button_icon.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_small_icon.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_notification_small_icon.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\list_selector.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\list_selector.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_dark.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6fb9a30741d852d6158f4d8444823f12a6d2fc6f\\output\\res\\drawable\\mr_ic_media_route_connecting_dark.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_pause.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_mini_controller_pause.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_dialog_material_background_dark.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6fb9a30741d852d6158f4d8444823f12a6d2fc6f\\output\\res\\drawable\\mr_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_collapse.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6fb9a30741d852d6158f4d8444823f12a6d2fc6f\\output\\res\\drawable\\ic_collapse.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\karma_lake_logo.png",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\karma_lake_logo.png"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\custombackground.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\custombackground.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind30.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_notification_rewind30.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_hover.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\button_bg_hover.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_skip_prev.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_mini_controller_skip_prev.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_btn_radio_holo_light.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\apptheme_btn_radio_holo_light.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_seekbar_thumb.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_expanded_controller_seekbar_thumb.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_skip_next.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_mini_controller_skip_next.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_seekbar_track.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_expanded_controller_seekbar_track.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\radiobuttonstyle.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\radiobuttonstyle.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Android\\.android\\build-cache\\d48068fd5024a2fb0a6d7dad2c58030744db4b25\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\button_selectoras.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\button_selectoras.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_close_dark.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6fb9a30741d852d6158f4d8444823f12a6d2fc6f\\output\\res\\drawable\\mr_ic_close_dark.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_dark.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6fb9a30741d852d6158f4d8444823f12a6d2fc6f\\output\\res\\drawable\\mr_ic_play_dark.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_disconnect.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_notification_disconnect.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\buttonstyle1.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\buttonstyle1.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_btn_radio_holo_light_blue.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\apptheme_btn_radio_holo_light_blue.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\buttonstyle4.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\buttonstyle4.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_light.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6fb9a30741d852d6158f4d8444823f12a6d2fc6f\\output\\res\\drawable\\mr_ic_media_route_connecting_light.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\buttonstyle7.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\buttonstyle7.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Android\\.android\\build-cache\\d48068fd5024a2fb0a6d7dad2c58030744db4b25\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_stop.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_expanded_controller_stop.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_color_selector.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\tab_color_selector.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
+        "source": "C:\\Android\\.android\\build-cache\\a25c679bbe0178144976ee90b427215045fda833\\output\\res\\drawable\\messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\buttonstyle8.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\buttonstyle8.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_stop_large.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_mini_controller_stop_large.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\pop_up_button.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\pop_up_button.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_play_large.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_mini_controller_play_large.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_light.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6fb9a30741d852d6158f4d8444823f12a6d2fc6f\\output\\res\\drawable\\mr_ic_pause_light.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_light.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6fb9a30741d852d6158f4d8444823f12a6d2fc6f\\output\\res\\drawable\\mr_ic_play_light.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_rewind30.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_mini_controller_rewind30.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_header_background.xml",
+        "source": "C:\\Android\\.android\\build-cache\\a25c679bbe0178144976ee90b427215045fda833\\output\\res\\drawable\\com_facebook_auth_dialog_header_background.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_close_light.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6fb9a30741d852d6158f4d8444823f12a6d2fc6f\\output\\res\\drawable\\mr_ic_close_light.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind10.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_notification_rewind10.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\buttonstyle9.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\buttonstyle9.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_mini_controller_progress_drawable.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_mini_controller_progress_drawable.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_light.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6fb9a30741d852d6158f4d8444823f12a6d2fc6f\\output\\res\\drawable\\mr_ic_media_route_mono_light.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_play.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_expanded_controller_play.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
+        "source": "C:\\Android\\.android\\build-cache\\a25c679bbe0178144976ee90b427215045fda833\\output\\res\\drawable\\messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_closed_caption.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_mini_controller_closed_caption.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Android\\.android\\build-cache\\94b3a0cf1886c63c871b680accd96b991db73d79\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_notification_forward.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_stop.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_mini_controller_stop.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_audiotrack_light.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6fb9a30741d852d6158f4d8444823f12a6d2fc6f\\output\\res\\drawable\\mr_ic_audiotrack_light.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\textview_background_all_corners_round.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\build\\intermediates\\bundles\\default\\res\\drawable\\textview_background_all_corners_round.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Android\\.android\\build-cache\\94b3a0cf1886c63c871b680accd96b991db73d79\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_background.xml",
+        "source": "C:\\Android\\.android\\build-cache\\a25c679bbe0178144976ee90b427215045fda833\\output\\res\\drawable\\com_facebook_button_background.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\textview_background_right_corners_round.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\androidChipBubbleText\\build\\intermediates\\bundles\\default\\res\\drawable\\textview_background_right_corners_round.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_dialog_material_background_light.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6fb9a30741d852d6158f4d8444823f12a6d2fc6f\\output\\res\\drawable\\mr_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expand.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6fb9a30741d852d6158f4d8444823f12a6d2fc6f\\output\\res\\drawable\\ic_expand.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_on_light.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6fb9a30741d852d6158f4d8444823f12a6d2fc6f\\output\\res\\drawable\\mr_ic_media_route_on_light.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\buttonstyle5.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\buttonstyle5.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_key.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\bg_key.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_skip_prev.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_notification_skip_prev.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_pause.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_expanded_controller_pause.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_rewind30.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_expanded_controller_rewind30.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Android\\.android\\build-cache\\d48068fd5024a2fb0a6d7dad2c58030744db4b25\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_background.xml",
+        "source": "C:\\Android\\.android\\build-cache\\a25c679bbe0178144976ee90b427215045fda833\\output\\res\\drawable\\com_facebook_auth_dialog_background.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_skip_next.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_notification_skip_next.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\drawer_list_selector.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\drawer_list_selector.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\hole_one.png",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\hole_one.png"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\buttonstyle6.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\buttonstyle6.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_home.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_notification_rewind.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\horizontaldivider.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\horizontaldivider.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_skip_next.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_expanded_controller_skip_next.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_skip_previous.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_expanded_controller_skip_previous.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\bluecolour.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\bluecolour.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_icon.xml",
+        "source": "C:\\Android\\.android\\build-cache\\a25c679bbe0178144976ee90b427215045fda833\\output\\res\\drawable\\com_facebook_button_icon.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\button_bg.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
+        "source": "C:\\Android\\.android\\build-cache\\a25c679bbe0178144976ee90b427215045fda833\\output\\res\\drawable\\messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_dark.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6fb9a30741d852d6158f4d8444823f12a6d2fc6f\\output\\res\\drawable\\mr_ic_cast_dark.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\buttonstyle.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\buttonstyle.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Android\\.android\\build-cache\\d48068fd5024a2fb0a6d7dad2c58030744db4b25\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_play.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_notification_play.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_connecting.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8f7865693706e6ac2bef48fa78ac0de3b766a04b\\output\\res\\drawable\\cast_ic_notification_connecting.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Android\\.android\\build-cache\\d48068fd5024a2fb0a6d7dad2c58030744db4b25\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\button.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\button.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\selectors.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\selectors.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_forward30.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_expanded_controller_forward30.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_mute.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_expanded_controller_mute.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward10.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_ic_notification_forward10.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_light.xml",
+        "source": "C:\\Android\\.android\\build-cache\\6fb9a30741d852d6158f4d8444823f12a6d2fc6f\\output\\res\\drawable\\mr_ic_cast_light.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\xml_button.xml",
+        "source": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\src\\main\\res\\drawable\\xml_button.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\8fdaff003d63d8208cad9851e426a5af2c1df3ad\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "F:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_bg_gradient_light.xml",
+        "source": "C:\\Android\\.android\\build-cache\\69630fe33303eff62475b2b5dcd50fc7a184b341\\output\\res\\drawable\\cast_expanded_controller_bg_gradient_light.xml"
+    }
+]

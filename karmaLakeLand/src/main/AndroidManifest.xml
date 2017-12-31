@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.KarmaLakeLand1">
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="24" />
+
+    <supports-screens android:smallScreens="false" />
+
+    <permission
+        android:name="com.KarmaLakeLand1.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="true" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.karmalakeland.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.NETWORK" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme"
+        tools:replace="android:icon">
+
+        <!--
+            <meta-data
+             android:name="com.google.android.gms.version"
+             android:value="AIzaSyDX7uTDAm2HZSyueKvtgd87J2l7DGjM5rE" />
+        -->
+        <!--
+            <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        -->
+        <activity
+            android:name=".splash"
+            android:allowBackup="true"
+            android:alwaysRetainTaskState="true"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".FCMMessageReceiverService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/push_icon" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@drawable/push_icon" />
+
+        <activity
+            android:name=".SignIn"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AccountDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BookingSelection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SendMessagesActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".TimeSelectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reviewbookingactivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Addonsbooking"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bookingconfirmation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EventTournaments"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Courseamenities1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Courseamenities2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Courseamenities3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Courseamenities4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Courseamenities5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Editprofile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scorecardtableview"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Allbooking"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SubmitScorecard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Forgetpassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Submitscorecard2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Rulesandregulation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bookingdetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PrivacyPolicy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bookingconfirmation1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reviewbooking"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChangePwdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SMS1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OffersandDeals"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TermsandConditions"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.paytm.pgsdk.PaytmPGActivity"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" />
+
+        <!--
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+
+        </activity>
+        -->
+        <!--
+        <intent-filter>
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+
+            <data android:scheme="@string/fb_login_protocol_scheme" />
+        </intent-filter>
+        -->
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCvoAjgVy2RGELqDL1rbGdoTyCfKolwR2Q" />
+        <!-- android:value="AIzaSyBkSSM5rC09AqzQIhdLQC7nZsyPPvoRyg4" -->
+        <!--<service android:enabled="true" android:name="com.exercise.AndroidClient.services.Communication" />-->
+
+        <activity android:name=".Geo"></activity>
+
+        <service android:name=".GPSTracker" />
+    </application>
+
+</manifest>

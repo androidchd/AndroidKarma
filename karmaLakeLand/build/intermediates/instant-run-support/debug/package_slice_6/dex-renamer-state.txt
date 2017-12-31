@@ -1,0 +1,4 @@
+#Fri Nov 17 16:46:42 IST 2017
+base.0=F\:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+renamed.0=classes.dex
+file.0=F\:\\gurpreet\\Gurpreet Space\\KarmaLakeLand\\karmaLakeLand\\build\\intermediates\\transforms\\dexMerger\\debug\\6\\classes.dex

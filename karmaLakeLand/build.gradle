@@ -1,0 +1,73 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'Karma LakeLands'
+            keyPassword 'reaston'
+            storeFile file('E:/Gurpreet Space/KarmaLakelandsKey/karma.jks')
+            storePassword 'reaston'
+        }
+    }
+    compileSdkVersion 24
+    buildToolsVersion '26.0.2'
+    useLibrary 'org.apache.http.legacy'
+
+    dexOptions {
+        incremental = true;
+        preDexLibraries = false
+        javaMaxHeapSize "4g"
+    }
+    defaultConfig {
+        multiDexEnabled true
+        applicationId "com.KarmaLakeLand1"
+        minSdkVersion 19
+        targetSdkVersion 24
+        versionCode 5
+        versionName "3.3"
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+
+    //compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+    compile project(':chipsEditTextLibrary')
+    compile project(':twoWayView')
+    compile project(':androidChipBubbleText')
+    //compile project(':facebook')
+    /*compile('com.google.apis:google-api-services-drive:v2-rev170-1.20.0') {
+        exclude module: 'httpclient'
+        exclude group: 'org.apache.httpcomponents'
+        exclude group: 'org.apache.httpcomponents', module: 'httpclient'
+    }*/
+
+    compile files('PGSDK_v1.0.jar')
+
+    compile 'commons-io:commons-io:2.4'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'org.apache.httpcomponents:httpclient-android:4.3.5.1'
+    compile 'com.google.android.gms:play-services-places:10.0.1'
+    compile 'com.android.support:support-v4:24.0.0'
+    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'com.android.support:design:24.0.0'
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    compile 'com.facebook.android:facebook-android-sdk:4.12.0'
+    compile 'com.google.android.gms:play-services-ads:10.0.1'
+    compile 'com.google.android.gms:play-services-plus:10.0.1'
+    compile 'com.google.android.gms:play-services-auth:10.0.1'
+    compile 'com.google.android.gms:play-services-gcm:10.0.1'
+    compile 'com.android.support:support-annotations:24.0.0'
+    compile 'com.google.android.gms:play-services-location:10.0.1'
+    compile 'com.google.apis:google-api-services-gmail:v1-rev50-1.22.0'
+    compile 'com.android.volley:volley:1.0.0'
+    compile 'com.google.firebase:firebase-auth:10.0.0'
+    compile 'com.google.firebase:firebase-messaging:10.0.0'
+    compile 'com.google.firebase:firebase-core:10.0.1'
+    compile 'com.google.android.gms:play-services:10.0.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+}
+apply plugin: 'com.google.gms.google-services'

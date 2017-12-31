@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "152094854722",
+    "firebase_url": "https://karma-lakeland-bbcbd.firebaseio.com",
+    "project_id": "karma-lakeland-bbcbd",
+    "storage_bucket": "karma-lakeland-bbcbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152094854722:android:299c18b0f0d1a45a",
+        "android_client_info": {
+          "package_name": "com.KarmaLakeLand1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152094854722-lkt9akhfa4r6aobg6db6f6ge5f4nctjh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQdeNS3VwdB5xjV7UH9nC7a1BNAlgZeoE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152094854722-lkt9akhfa4r6aobg6db6f6ge5f4nctjh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
